@@ -1,5 +1,5 @@
-ats-view-wms
-============
+ats-download-atom
+=================
 
 Abstract Test Suite for Atom Implementation of Pre-defined Dataset Download Service of INSPIRE Download Services Technical Guidance 
 
@@ -21,8 +21,9 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-wms            | http://www.opengis.net/wms
+atom           | http://www.w3.org/2005/Atom
 xlink          | http://www.w3.org/1999/xlink
-gmd            | http://www.isotc211.org/2005/gmd
-inspire\_vs    | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0
+georss         | http://www.georss.org/georss
+os             | http://a9.com/-/spec/opensearch/1.1/
+inspire\_dls   | http://inspire.ec.europa.eu/schemas/inspire_dls/1.0
 inspire\_common| http://inspire.ec.europa.eu/schemas/common/1.0
