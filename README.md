@@ -14,6 +14,10 @@ This Conformance Class contains the following tests:
 | Identifier                                                        | Origin | Mechanical | Status   |
 | ----------------------------------------------------------------- | ------ | ---------- | -------- |
 | [A.01.TGR1.separatedatasets](A.01.TGR1.separatedatasets.md)    | TG     | Yes        | Draft    |
+| [A.02.TGR2.conformtoAtomSpecification](A.02.TGR2.conformtoAtomSpecification.md)    | TG     | Yes        | Draft    |
+| [A.03.TGR3.conformtoGeoRSS-Simple](A.03.TGR3.conformtoGeoRSS-Simple.md)    | TG     | Yes        | Draft    |
+| [A.04.TGR4.conformtoOpenSearch1.1](A.04.TGR4.conformtoOpenSearch1.1.md)    | TG     | Yes        | Draft    |
+
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
