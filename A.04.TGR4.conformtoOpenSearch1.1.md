@@ -1,6 +1,8 @@
 # Conform to the OpenSearch specification
 
-**Purpose**: the referenced OpenSearch Description must conform to the OpenSearch 1.1 specification 
+**Purpose**: 
+
+The referenced OpenSearch Description must conform to the OpenSearch 1.1 specification 
 
 **Test method**
 

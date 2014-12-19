@@ -1,6 +1,8 @@
 # Provide a title element
 
-**Purpose**: the "title" element of an Atom Download Service feed shall be populated with a human readable title for the feed
+**Purpose**: 
+
+The "title" element of an Atom Download Service feed shall be populated with a human readable title for the feed
 
 **Test method**
 

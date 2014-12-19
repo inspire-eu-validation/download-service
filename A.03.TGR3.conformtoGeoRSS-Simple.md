@@ -1,6 +1,8 @@
 # Conform to the GeoRSS-simple specification
 
-**Purpose**: all feeds must conform to the GeoRSS Simple specification 
+**Purpose**: 
+
+All feeds must conform to the GeoRSS Simple specification 
 
 **Test method**
 
