@@ -34,4 +34,4 @@ Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 link href attribute <a name="describedbylink"></a> | /atom:feed/atom:link[@rel='describedby' and (@type='application/xml' or @type='application/vnd.ogc.csw.GetRecordByIdResponse_xml')]/@href
 gmd:MD_Metadata element <a name="md_metadata_element"></a> | /gmd:MD_Metadata
-Resource Locator <a name="resourcelocator"></a>| gmd:distributionInfo/*/gmd:transferOptions/*/gmd:onLine/*/gmd:linkage
+Resource Locator <a name="resourcelocator"></a>| //gmd:distributionInfo/\*/gmd:transferOptions/\*/gmd:onLine/\*/gmd:linkage
