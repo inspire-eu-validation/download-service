@@ -5,7 +5,9 @@
 **Test method**
 In the Atom service feed (the top-level feed), each combination of the [spatial_dataset_identifier_code](#spatial_dataset_identifier_code) and [spatial_dataset_identifier_namespace](#spatial_dataset_identifier_namespace) must be unique.
 
-**Reference(s)**: TG, Req 1
+**Reference(s)**: 
+
+* TG, Req 1
 
 **Test type**: Automated
 
