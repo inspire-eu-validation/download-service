@@ -13,7 +13,7 @@ This Conformance Class contains the following tests:
 
 | Identifier                                                        | Origin | Mechanical | Status   |
 | ----------------------------------------------------------------- | ------ | ---------- | -------- |
-
+| A.01.TGR1.separatedatasets                                        | TG     | Yes        | Draft    |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
