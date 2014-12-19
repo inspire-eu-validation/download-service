@@ -2,7 +2,7 @@
 
 **Purpose**: 
 
-The Download Service feed must provide a [link to an OpenSearch Description document](#opensearchlink), that provides the operations metadata for the Download Service. The value of the 'rel' attribute of this link element must be 'search', the '̳hreflang' attribute must use the appropriate language code and the 'type' attribute must be 'application/opensearchdescription+xml'.
+The Download Service feed must provide a [link to an OpenSearch Description document](#opensearchlink), that provides the operations metadata for the Download Service. The value of the 'rel' attribute of this link element must be 'search', the [hreflang attribute](#hreflang) must use the appropriate language code and the 'type' attribute must be 'application/opensearchdescription+xml'.
 
  **Test method**
 
