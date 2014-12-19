@@ -18,7 +18,8 @@ This Conformance Class contains the following tests:
 | [A.03.TGR3.conformtoGeoRSS-Simple](A.03.TGR3.conformtoGeoRSS-Simple.md)    | TG     | Yes        | Draft    |
 | [A.04.TGR4.conformtoOpenSearch1.1](A.04.TGR4.conformtoOpenSearch1.1.md)    | TG     | Yes        | Draft    |
 | [A.05.IR221.TGR5.feedTitle](A.05.IR221.TGR5.feedTitle.md)    | TG     | Yes        | Draft    |
-| [A.06.IR511.TGR6.linkToMetadataForTheService](A.06.IR511.TGR6.linkToMetadataForTheService.md)    | TG     | Yes        | Draft    |
+| [A.06.IR511.TGR6.linkToMetadataForTheService](A.06.IR511.TGR6.linkToMetadataForTheService.md)  | TG  | Yes  | Draft    |
+| [A.07.TGR7.selfreference](A.07.TGR7.selfreference.md)  | TG     | Yes        | Draft    |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
