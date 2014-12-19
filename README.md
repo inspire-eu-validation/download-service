@@ -17,6 +17,7 @@ This Conformance Class contains the following tests:
 | [A.02.TGR2.conformtoAtomSpecification](A.02.TGR2.conformtoAtomSpecification.md)    | TG     | Yes        | Draft    |
 | [A.03.TGR3.conformtoGeoRSS-Simple](A.03.TGR3.conformtoGeoRSS-Simple.md)    | TG     | Yes        | Draft    |
 | [A.04.TGR4.conformtoOpenSearch1.1](A.04.TGR4.conformtoOpenSearch1.1.md)    | TG     | Yes        | Draft    |
+| [A.05.IR221.TGR5.feedTitle](A.05.IR221.TGR5.feedTitle.md)    | TG     | Yes        | Draft    |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
