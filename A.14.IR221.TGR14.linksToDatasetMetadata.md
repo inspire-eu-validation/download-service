@@ -34,7 +34,7 @@ Abbreviation                                               |  XPath expression
 describedby link <a name="describedbylink"></a> | /atom:feed/atom:link[@rel='describedby' and (@type='application/xml' or @type='application/vnd.ogc.csw.GetRecordByIdResponse_xml')]/@href
 entry <a name="entry"></a> | //atom:entry
 link to a Dataset metadata record <a name="datasetdescribedbylink"></a> | //atom:entry/atom:link[@rel='describedby' and @type='application/xml']/@href
-dataset identifier <a name="datasetidentifier"></a> | gmd:identificationInfo[1]/*/gmd:citation/*/gmd:identifier
+dataset identifier <a name="datasetidentifier"></a> | gmd:identificationInfo[1]/\*/gmd:citation/\*/gmd:identifier
 
 
 

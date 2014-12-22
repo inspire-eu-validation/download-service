@@ -35,8 +35,9 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
 atom           | http://www.w3.org/2005/Atom
-xlink          | http://www.w3.org/1999/xlink
 georss         | http://www.georss.org/georss
-os             | http://a9.com/-/spec/opensearch/1.1/
-inspire\_dls   | http://inspire.ec.europa.eu/schemas/inspire_dls/1.0
+gmd | http://www.isotc211.org/2005/gmd
 inspire\_common| http://inspire.ec.europa.eu/schemas/common/1.0
+inspire\_dls   | http://inspire.ec.europa.eu/schemas/inspire_dls/1.0
+os             | http://a9.com/-/spec/opensearch/1.1/
+xlink          | http://www.w3.org/1999/xlink
