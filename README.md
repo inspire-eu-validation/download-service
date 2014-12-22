@@ -24,7 +24,9 @@ This Conformance Class contains the following tests:
 | [A.09.TGR9.feedid](A.09.TGR9.feedid.md)  | TG     | Yes        | Draft    |
 | [A.10.IR221.TGR10.rightselement](A.10.IR221.TGR10.rightselement.md)   | TG     | Yes        | Draft    |
 | [A.11.IR221.TGR11.updatedelement](A.11.IR221.TGR11.updatedelement.md) | TG     | Yes        | Draft    |
-
+| [A.12.IR221.TGR12.contactinformation](A.12.IR221.TGR12.contactinformation.md) | TG     | Yes        | Draft    |
+| [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) | TG     | Yes        | Draft    |
+| [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) | TG     | Yes        | Draft    |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
