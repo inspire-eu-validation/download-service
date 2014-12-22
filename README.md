@@ -21,6 +21,9 @@ This Conformance Class contains the following tests:
 | [A.06.IR511.TGR6.linkToMetadataForTheService](A.06.IR511.TGR6.linkToMetadataForTheService.md)  | TG  | Yes  | Draft    |
 | [A.07.TGR7.selfreference](A.07.TGR7.selfreference.md)  | TG     | Yes        | Draft    |
 | [A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md)  | TG     | Yes        | Draft | 
+| [A.09.TGR9.feedid](A.09.TGR9.feedid.md)  | TG     | Yes        | Draft    |
+| [A.10.IR221.TGR10.rightselement](A.10.IR221.TGR10.rightselement.md)   | TG     | Yes        | Draft    |
+| [A.11.IR221.TGR11.updatedelement](A.11.IR221.TGR11.updatedelement.md) | TG     | Yes        | Draft    |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
