@@ -27,7 +27,7 @@ This Conformance Class contains the following tests:
 | [A.12.IR221.TGR12.contactinformation](A.12.IR221.TGR12.contactinformation.md) | TG     | Yes        | Draft    |
 | [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) | TG     | Yes        | Draft    |
 | [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) | TG     | Yes        | Draft    |
-| [A.15.TGR15.linkToDatasetFeed](A.15.IR511.TGR15.linkToDatasetFeed.md) | TG | Yes | Draft |
+| [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) | TG | Yes | Draft |
 | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) | TG | Yes | Draft |
 
 
