@@ -6,7 +6,7 @@ The dataset feed must provide information about the date, time and timezone at w
 
  **Test method**
 
-* check if the [updated element](#updatedelement) exists and contains a correctly formatted date, including time and timezone.
+* check if the [updated element](#updatedelement) exists and contains a [correctly formatted date](#validdate)correctly formatted date, including time and timezone.
 * the date must not be in the future or too far in the past
 
 **Reference(s)**: 
@@ -28,6 +28,7 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 updated element <a name="updatedelement"></a> | /atom:feed/atom:updated
+correctly formatted date <a name="validdate"></a> | year-from-dateTime(xs:dateTime(atom:updated))
 
 
 
