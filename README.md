@@ -32,6 +32,9 @@ This Conformance Class contains the following tests:
 | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) | TG | Yes | Draft |
 | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) | TG | Yes | Draft |
 | [A.19.IR224.TGR20.entryCRS](A.19.IR224.TGR20.entryCRS.md) | TG | Yes | Draft |
+| [A.20.IR224.TGR21.datasetFeedTitle](A.20.IR224.TGR21.datasetFeedTitle.md) | TG | Yes | Draft |
+| [A.21.TGR22.datasetFeedId](A.21.TGR22.datasetFeedId.md) | TG | Yes | Draft |
+| [A.22.IR221.TGR23.rightselement](A.22.IR221.TGR23.rightselement.md) | TG | Yes | Draft |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
