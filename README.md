@@ -30,6 +30,7 @@ This Conformance Class contains the following tests:
 | [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) | TG | Yes | Draft |
 | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) | TG | Yes | Draft |
 | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) | TG | Yes | Draft |
+| [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) | TG | Yes | Draft |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>

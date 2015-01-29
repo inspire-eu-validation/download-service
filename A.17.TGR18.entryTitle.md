@@ -2,12 +2,12 @@
 
 **Purpose**: 
 
-The title element of an entry shall be populated with a human readable title for that entry.
+The title element of an entry must be populated with a human readable title for that entry.
 
 **Test method**
 
 * For each [entry](#entry) in the Download Service Feed, check if an [entry title](#entrytitle) is provided. 
-* the [entry title](#entrytitle) must be non-empty text; the text content must include at least one alpha-numeric letter.
+* The [entry title](#entrytitle) must be non-empty text; the text content must include at least one alpha-numeric letter.
 
 **Reference(s)**: 
 
