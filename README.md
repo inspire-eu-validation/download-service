@@ -31,7 +31,7 @@ This Conformance Class contains the following tests:
 | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) | TG | Yes | Draft |
 | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) | TG | Yes | Draft |
 | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) | TG | Yes | Draft |
-
+| [A.19.IR224.TGR20.entryCRS](A.19.IR224.TGR20.entryCRS.md) | TG | Yes | Draft |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
