@@ -37,6 +37,8 @@ This Conformance Class contains the following tests:
 | [A.22.IR221.TGR23.datasetFeedRights](A.22.IR221.TGR23.datasetFeedRights.md) | TG | Yes | Draft |
 | [A.23.IR221.TGR24.datasetFeedUpdated](A.23.IR221.TGR24.datasetFeedUpdated.md) | TG | Yes | Draft |
 | [A.24.IR221.TGR25.datasetFeedContactinformation](A.24.IR221.TGR25.datasetFeedContactinformation.md) | TG | Yes | Draft |
+| [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) | TG | Yes | Draft |
+
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
