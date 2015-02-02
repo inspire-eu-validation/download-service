@@ -28,6 +28,7 @@ This Conformance Class contains the following tests:
 | [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) | TG     | Yes        | Draft    |
 | [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) | TG     | Yes        | Draft    |
 | [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) | TG | Yes | Draft |
+| TGR 16 | TG | No | - |
 | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) | TG | Yes | Draft |
 | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) | TG | Yes | Draft |
 | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) | TG | Yes | Draft |
@@ -41,6 +42,10 @@ This Conformance Class contains the following tests:
 | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | TG | Yes | Draft |
 | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | TG | Yes | Draft |
 | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | TG | Yes | Draft |
+| TGR 30 | TG | No | - |
+| [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | TG | Yes | Draft |
+| [A.30.TGR32.downloadMultipleFiles](A.30.TGR32.downloadMultipleFiles.md) | TG | Yes | Draft |
+
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
