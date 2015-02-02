@@ -40,6 +40,7 @@ This Conformance Class contains the following tests:
 | [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) | TG | Yes | Draft |
 | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | TG | Yes | Draft |
 | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | TG | Yes | Draft |
+| [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | TG | Yes | Draft |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
