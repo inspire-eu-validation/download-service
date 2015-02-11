@@ -48,6 +48,9 @@ This Conformance Class contains the following tests:
 | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) | TG | Yes | Draft |
 | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) | TG | Yes | Draft |
 | [A.33.IR224.IR313.TGR35.categoryLabelCRS](A.33.IR224.IR313.TGR35.categoryLabelCRS.md) | TG | Yes | Draft |
+| TGR 36 | TG | No | - |
+| TGR 37 | TG | No | - |
+
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
