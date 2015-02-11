@@ -20,7 +20,7 @@ The Atom Download service feed and all entries for a Atom Dataset feeds must val
 
 **Notes**
 
-There does not seem to be an official XML Schema that can be used directly. It might be needed to develop a schema, use another validator like the [W3C validator](http://validator.w3.org/feed/) and/or use the RELAX NG schema provided in the Atom specification.
+There does not seem to be an official XML Schema that can be used directly. It might be needed to develop a schema, use another validator like the [W3C validator](http://validator.w3.org/feed/) and/or use the RELAX NG schema provided in the Atom specification. Note that the ATOM specifications allows any order for the elements. Before validating, the xml elements therefore must be shuffled to match the order chosen in the XML schema.
 
 ## Contextual XPath references
 

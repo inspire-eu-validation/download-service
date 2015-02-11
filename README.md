@@ -57,6 +57,7 @@ This Conformance Class contains the following tests:
 | [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md)  | TG | Yes | Ready for review |
 | [A.38.IR3.TGR43.openSearchUrlGetSpatialDataset](A.38.IR3.TGR43.openSearchUrlGetSpatialDataset.md)  | TG | Yes | Ready for review |
 | [A.39.IR3.IR4.TGR44.openSearchQueryExample](A.39.IR3.IR4.TGR44.openSearchQueryExample.md)  | TG | Yes | Ready for review |
+| [A.40.IR311.IR411.TGR45.openSearchLanguages](A.40.IR311.IR411.TGR45.openSearchLanguages.md) | TG | Yes | Ready for review |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
