@@ -7,7 +7,7 @@ The dataset feed must provide at least one feed [entry](#entry) with [links to d
  **Test method**
 
 * test if at least one feed entry is available with at least one [link to download](#downloadlink) a file
-* resolve all [links to download](#downloadlink) in the dataset feed. Use HTTP HEAD to avoid downloading large datasets where possible.
+* resolve all [links to download](#downloadlink) in the dataset feed.
 
 **Reference(s)**: 
 
@@ -21,6 +21,7 @@ Automated
 **Notes**
 
 [1] when resolving the links, HTTP codes for success are: 200,301,302,303
+[2] it is up to the implementing tool to decide to use HTTP GET or HTTP HEAD.
 
 
 ## Contextual XPath references
