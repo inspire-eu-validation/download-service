@@ -52,6 +52,7 @@ This Conformance Class contains the following tests:
 | TGR 37 | TG | No | Not testable |
 | TGR 38 | TG | No | Not testable |
 | [A.34.IR222.TGR39.provideOpenSearchDescription](A.34.IR222.TGR39.provideOpenSearchDescription.md)  | TG | No | Ready for review |
+| [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md)  | TG | Yes | Ready for review |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
