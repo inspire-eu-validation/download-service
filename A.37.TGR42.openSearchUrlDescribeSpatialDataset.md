@@ -11,6 +11,7 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 
 **Reference(s)**: 
 
+* IR 4 (4.1-4.2.1)
 * TG, Req 42
 * [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
 
