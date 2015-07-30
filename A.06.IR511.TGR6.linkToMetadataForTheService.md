@@ -16,7 +16,7 @@ The Download Service feed must provide a link to a metadata record, that describ
 
 **Reference(s)**:
 
-* [IR NS](README.md#ref_IR_NS), section 2.2.1, Metadata elements
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.1, Download Service Metadata parameter
 * [TG DL](README.md#ref_TG_DL), Req 6
 * [IR MD](README.md#ref_IR_MD), section 2.2.4
 
