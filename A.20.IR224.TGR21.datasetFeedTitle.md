@@ -1,6 +1,6 @@
 # Dataset Feed: provide a title element
 
-**Purpose**: 
+**Purpose**:
 
 The "title" element of an Atom Dataset feed must be populated with a human readable title for the feed
 
@@ -8,10 +8,10 @@ The "title" element of an Atom Dataset feed must be populated with a human reada
 
 * the [feed title](#feedtitle) must be non-empty text; the text content must include at least one alpha-numeric letter.
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR section 2.2.4, Spatial Data Sets Metadata parameters
-* TG, Req 21
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.4, Spatial Data Sets Metadata parameters
+* [TG DL](README.md#ref_TG_DL), Req 21
 
 **Test type**: Automated
 

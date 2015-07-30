@@ -1,18 +1,18 @@
 # Conform to the OpenSearch specification
 
-**Purpose**: 
+**Purpose**:
 
-The referenced OpenSearch Description must conform to the OpenSearch 1.1 specification 
+The referenced OpenSearch Description must conform to the OpenSearch 1.1 specification
 
 **Test method**
 
 * resolve the [link to the OpenSearch Description](#opensearchlink) to get the OpenSearch Description
-* validate the OpenSearch Description to [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* validate the OpenSearch Description to [OpenSearch](README.md#ref_opensearch)
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 4
-* [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* [TG DL](README.md#ref_TG_DL), Req 4
+* [OpenSearch](README.md#ref_opensearch)
 
 **Test type**: Automated
 

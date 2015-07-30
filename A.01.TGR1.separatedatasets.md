@@ -1,6 +1,6 @@
 # Each separate dataset has an individual entry in the Atom service feed
 
-**Purpose**: 
+**Purpose**:
 
 Each dataset must have a separate entry in the service feed
 
@@ -8,9 +8,9 @@ Each dataset must have a separate entry in the service feed
 
 In the Atom service feed (the top-level feed), each combination of the [spatial_dataset_identifier_code](#spatial_dataset_identifier_code) and [spatial_dataset_identifier_namespace](#spatial_dataset_identifier_namespace) must be unique.
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 1
+* [TG DL](README.md#ref_TG_DL), Req 1
 
 **Test type**: Automated
 

@@ -1,6 +1,6 @@
 # OpenSearch Description provides Query examples for each dataset
 
-**Purpose**: 
+**Purpose**:
 
 For each dataset available the OpenSearch description must contain a ["Query" element](#queryelement)" element that has a "role" attribute with the value "example" and "spatial_dataset_identifier_code" and "spatial_dataset_identifier_namespace" attributes together containing unique spatial dataset identifier. The value of the "crs" and "language" attributes must be set to the values considered as the default ones by the service provider.
 
@@ -16,13 +16,13 @@ For each ["Query" element](#queryelement):
 * resolve the [Get Spatial Dataset url](#getspatialdataseturl)
 * check the HTTP response code to be a valid code from: 200,206,301,303,303
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR section 3 (3.1-3.2.1), 4 (4.1-4.2.1)
-* TG, Req 44
+* [IR NS](README.md#ref_IR_NS), M1, section 3 (3.1-3.2.1), 4 (4.1-4.2.1)
+* [TG DL](README.md#ref_TG_DL), Req 44
 * [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
 
-**Test type**: 
+**Test type**:
 
 Automated
 

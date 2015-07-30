@@ -1,21 +1,21 @@
 # OpenSearch Description provides URL for Describe Spatial Dataset operation
 
-**Purpose**: 
+**Purpose**:
 
 The OpenSearch description must contain a ["Url" element](#urlelement) that describes a template URL for the Describe Spatial Data Set operation. This template must accept the INSPIRE parameters "spatial_dataset_identifier_code", "spatial_dataset_identifier_namespace" and the OpenSearch "language" parameter. The ["Url" element](#urlelement) must have an attribute "type" with a value of "application/atom+xml" and an attribute "rel" with the value "describedby".
 
 **Test method**
 
-* test if the OpenSearch Description provides a [Describe Spatial Dataset url](#describespatialdataseturl) 
+* test if the OpenSearch Description provides a [Describe Spatial Dataset url](#describespatialdataseturl)
 * for this [Describe Spatial Dataset url](#describespatialdataseturl), fill in the parameters for "spatial_dataset_identifier_code", "spatial_dataset_identifier_namespace" and "language" and resolve the [Describe Spatial Dataset url](#describespatialdataseturl) and test if it provides a document with content-type "application/atom+xml"
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR 4 (4.1-4.2.1)
-* TG, Req 42
-* [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* [IR NS](README.md#ref_IR_NS), M1, section 4 (4.1 - 4.2.1)
+* [TG DL](README.md#ref_TG_DL), Req 42
+* [OpenSearch](README.md#ref_opensearch)
 
-**Test type**: 
+**Test type**:
 
 Automated
 

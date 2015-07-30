@@ -1,6 +1,6 @@
 # Download Service feed provides identifiers for each entry
 
-**Purpose**: 
+**Purpose**:
 
 Each feed [entry](#entry) in a Download Service Feed must provide an [identifier](#identifier) for that entry. This identifier must be an HTTP URI.
 
@@ -9,9 +9,9 @@ Each feed [entry](#entry) in a Download Service Feed must provide an [identifier
 * For each [entry](#entry) in the Download Service Feed, check if exactly one [identifier](#identifier) is provided.
 * For each [identifier](#identifier) check that it begins with "http".
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 17
+* [TG DL](README.md#ref_TG_DL), Req 17
 
 **Test type**: Automated
 

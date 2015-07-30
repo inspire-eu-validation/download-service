@@ -1,6 +1,6 @@
 # Use INSPIRE media-types only
 
-**Purpose**: 
+**Purpose**:
 
 Only media types listed in the INSPIRE media-types register must be used.
 
@@ -9,11 +9,11 @@ Only media types listed in the INSPIRE media-types register must be used.
 * Get all media types from the INSPIRE register at http://inspire.ec.europa.eu/media-types/
 * For each [media-type](#mediatypes) used in [alternate links](#alternatelinks), test if it that is listed in the INSPIRE register
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 34
+* [TG DL](README.md#ref_TG_DL), Req 34
 
-**Test type**: 
+**Test type**:
 
 Automated
 

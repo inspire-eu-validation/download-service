@@ -1,6 +1,6 @@
 # Download Service feed contains a link to an OpenSearch Description document
 
-**Purpose**: 
+**Purpose**:
 
 The Download Service feed must provide a [link to an OpenSearch Description document](#opensearchlink), that provides the operations metadata for the Download Service. The value of the 'rel' attribute of this link element must be 'search', the [hreflang attribute](#hreflang) must use the appropriate language code and the 'type' attribute must be 'application/opensearchdescription+xml'.
 
@@ -10,10 +10,10 @@ The Download Service feed must provide a [link to an OpenSearch Description docu
 * the [link to an OpenSearch Description document](#opensearchlink) must resolve to an OpenSearch Description Document
 
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 8
-* IR, section 2.2.2 (Operations metadata)
+* [TG DL](README.md#ref_TG_DL), Req 8
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.2 (Operations Metadata parameter)
 
 **Test type**: Automated
 

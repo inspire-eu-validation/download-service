@@ -1,6 +1,6 @@
 # Provide a link to the metadata record for the Download Service
 
-**Purpose**: 
+**Purpose**:
 
 The Download Service feed must provide a link to a metadata record, that describes the Download Service. The link must be at the feed-level and have a "rel" attribute of "describedby" and "type" attribute of "application/xml" or "application/vnd.ogc.csw.GetRecordByIdResponse_xml".
 
@@ -14,11 +14,11 @@ The Download Service feed must provide a link to a metadata record, that describ
 * the [Resource Locator](#resourcelocator) must resolve to an Atom Download Service Feed document
 * this Atom Download Service Feed document (refered from the metadata document) must contain a [describedby link](#describedbylink) that is the same as the [describedby link](#describedbylink) of the first step
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR section 2.2.1, Metadata elements
-* TG, Req 6
-* INSPIRE Implementing Rules for Metadata, section 2.2.4
+* [IR NS](README.md#ref_IR_NS), section 2.2.1, Metadata elements
+* [TG DL](README.md#ref_TG_DL), Req 6
+* [IR MD](README.md#ref_IR_MD), section 2.2.4
 
 **Test type**: Automated
 

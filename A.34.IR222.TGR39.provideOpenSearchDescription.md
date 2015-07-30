@@ -1,6 +1,6 @@
 # Download Service feed provides an OpenSearch Description document
 
-**Purpose**: 
+**Purpose**:
 
 A simple service to perform the Describe Spatial Dataset and Get Spatial Data Set operations must be provided and described by an OpenSearch description document.
 
@@ -8,10 +8,10 @@ A simple service to perform the Describe Spatial Dataset and Get Spatial Data Se
 
 -
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 38
-* IR, section 2.2.2 (Operations metadata)
+* [TG DL](README.md#ref_TG_DL), Req 38
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.2 (Operations metadata parameter)
 
 **Test type**: Not testable
 

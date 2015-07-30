@@ -1,20 +1,20 @@
 # Conform to the Atom specification
 
-**Purpose**: 
+**Purpose**:
 
 All feeds must conform to the Atom specification RFC 4287
 
 **Test method**
 
-The Atom Download service feed and all entries for a Atom Dataset feeds must validate against the Atom specification [RFC 4287](http://tools.ietf.org/html/rfc4287).
+The Atom Download service feed and all entries for a Atom Dataset feeds must validate against the [Atom specification](README.md#ref_atom).
 
 * validate the Atom service feed to RFC 4287
 * for each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, resolve the link the referenced Atom feed and validate that to RFC 4287
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 2
-* [RFC 4287](http://tools.ietf.org/html/rfc4287)
+* [TG DL](README.md#ref_TG_DL,) Req 2
+* [Atom specification](README.md#ref_atom)
 
 **Test type**: Automated
 

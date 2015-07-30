@@ -1,6 +1,6 @@
 # Download Service feed provides CRS information for each entry
 
-**Purpose**: 
+**Purpose**:
 
 Each feed entry must contain an Atom "category" element for each CRS in which the pre-defined dataset is available. This category element must refer to a well-known definition of a coordinate reference system.
 
@@ -8,12 +8,12 @@ Each feed entry must contain an Atom "category" element for each CRS in which th
 
 * For each [entry](#entry) in the Download Service Feed, check if at least one valid [category element](#category) is provided.
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR section 2.2.4, Spatial Data Sets Metadata parameters
-* TG, Req 20
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.4, Spatial Data Sets Metadata parameters
+* [TG DL](README.md#ref_TG_DL), Req 20
 
-**Test type**: 
+**Test type**:
 
 Automated
 

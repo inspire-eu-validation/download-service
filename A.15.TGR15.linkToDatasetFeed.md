@@ -1,6 +1,6 @@
 # Download Service feed contains links to dataset feed
 
-**Purpose**: 
+**Purpose**:
 
 Each feed [entry](#entry) in a Download Service Feed shall contain a single [dataset feed link](#datasetfeedlink). This link shall have a "rel" attribute with a value of "alternate" and a "type" attribute with a value "application/atom+xml".
 
@@ -8,9 +8,9 @@ Each feed [entry](#entry) in a Download Service Feed shall contain a single [dat
 
 * For each [entry](#entry) in the Download Service Feed, check if exactly one [dataset feed link](#datasetfeedlink) is provided
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 15
+* [TG DL](README.md#ref_TG_DL), Req 15
 
 **Test type**: Automated
 

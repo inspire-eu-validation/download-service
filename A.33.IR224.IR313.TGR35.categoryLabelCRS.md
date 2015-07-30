@@ -1,6 +1,6 @@
 # Each entry has CRS information
 
-**Purpose**: 
+**Purpose**:
 
 Each CRS representation must have a [category element](#category) which refers to the CRS definition and code.
 
@@ -8,13 +8,13 @@ Each CRS representation must have a [category element](#category) which refers t
 
 * For each [entry](#entry) in the Dataset feed, check if one valid [category element](#category) is provided for the CRS.
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* IR section 2.2.4, Spatial Data Sets Metadata parameters
-* IR section 3.1.3, Coordinate Reference System parameter
-* TG, Req 35
+* [IR NS](README.md#ref_IR_NS), M1, section 2.2.4, Spatial Data Sets Metadata parameters
+* [IR NS](README.md#ref_IR_NS), M1, section 3.1.3, Coordinate Reference System parameter
+* [TG DL](README.md#ref_TG_DL), Req 35
 
-**Test type**: 
+**Test type**:
 
 Automated
 

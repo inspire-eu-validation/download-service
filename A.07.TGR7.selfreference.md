@@ -1,6 +1,6 @@
 # Download Service feed contains a self-reference link
 
-**Purpose**: 
+**Purpose**:
 
 The Download Service feed must provide a self-reference link. This link must be a HTTP URI that resolves to the Download Service feed document. The value of the 'rel' attribute of this element shall be 'self', the 'hreflang' attribute shall use the appropriate language code and the value of the 'type' attribute shall be 'application/atom+xml'.
 
@@ -10,10 +10,10 @@ The Download Service feed must provide a self-reference link. This link must be 
 * the [self link](#selflink) must be the same as the Download Service feed URI
 * the [self link](#selflink)'s [hreflang attribute](#hreflang) must be the same as the [xml:lang attribute](#xmllang) of the Atom feed or if the [xml:lang attribute](#xmllang) is not given, it must be the default language code defined in the OpenSearch description.
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 7
-* [RFC 4287](http://tools.ietf.org/html/rfc4287)
+* [TG DL](README.md#ref_TG_DL), Req 7
+* [Atom](README-md#ref_atom)
 
 **Test type**: Automated
 

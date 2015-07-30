@@ -1,23 +1,24 @@
 # Conform to the GeoRSS-simple specification
 
-**Purpose**: 
+**Purpose**:
 
-All feeds must conform to the GeoRSS Simple specification 
+All feeds must conform to the GeoRSS Simple specification
 
 **Test method**
 
-* validate the Atom service feed to [GeoRSS-Simple schema version 1.1](http://www.georss.org/xml/1.1/georss.xsd)
-* for each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, resolve the link the referenced Atom feed and validate that to [GeoRSS-Simple schema version 1.1](http://www.georss.org/xml/1.1/georss.xsd)
+* validate the Atom service feed to [GeoRSS Simple](README.md#ref_georss_simple)
+* for each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, resolve the link the referenced Atom feed and validate that to [[GeoRSS Simple](README.md#ref_georss_simple)
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 3
-* [GeoRSS-Simple schema version 1.1](http://www.georss.org/xml/1.1/georss.xsd)
+* [TG DL](README.md#ref_TG_DL), Req 3
+* [GeoRSS Simple](README.md#ref_georss_simple)
 
 **Test type**: Automated
 
 **Notes**
 
+XML Schema for the GeoRSS Simple version 1.1 is available at http://www.georss.org/xml/1.1/georss.xsd
 
 ## Contextual XPath references
 

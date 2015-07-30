@@ -1,6 +1,6 @@
 # Download Service feed provides an updated element for each entry
 
-**Purpose**: 
+**Purpose**:
 
 The updated element of an entry must be populated with a date, time and timezone at which the feed entry was last updated..
 
@@ -8,11 +8,11 @@ The updated element of an entry must be populated with a date, time and timezone
 
 * For each [entry](#entry) in the Download Service Feed, check if the [updated](#updated) element provides a [valid date](#validdate).
 
-**Reference(s)**: 
+**Reference(s)**:
 
-* TG, Req 19
+* [TG DL](README.md#ref_TG_DL), Req 19
 
-**Test type**: 
+**Test type**:
 
 Automated
 
