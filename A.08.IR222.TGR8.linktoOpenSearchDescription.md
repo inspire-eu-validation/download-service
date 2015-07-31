@@ -7,19 +7,20 @@ The Download Service feed must provide a [link to an OpenSearch Description docu
  **Test method**
 
 * check existence of the [link to an OpenSearch Description document](#opensearchlink)
-* the [link to an OpenSearch Description document](#opensearchlink) must resolve to an OpenSearch Description Document
+* the [link to an OpenSearch Description document](#opensearchlink) must resolve to a valid OpenSearch Description Document
 
 
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL), Req 8
 * [IR NS](README.md#ref_IR_NS), M1, section 2.2.2 (Operations Metadata parameter)
+* [OpenSearch](README.md#ref_opensearch)
 
 **Test type**: Automated
 
 **Notes**
 
-The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIG workgroup recommends the TG editors to remove the part regarding the the [hreflang attribute](#hreflang) from requirement 8.
+The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the the [hreflang attribute](#hreflang) from requirement 8.
 
 ## Contextual XPath references
 

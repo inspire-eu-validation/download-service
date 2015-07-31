@@ -14,7 +14,7 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 
 * [IR NS](README.md#ref_IR_NS), M1, section 3 (3.1-3.2.1)
 * [TG DL](README.md#ref_TG_DL), Req 43
-* [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* [OpenSearch](README.md#ref_opensearch)
 
 **Test type**:
 
@@ -23,6 +23,8 @@ Automated
 **Notes**
 
 [1] The values for the parameters "crs", "spatial_dataset_identifier_code", "spatial_dataset_identifier_namespace" and "language" can be obtained from the OpenSearch description
+
+Comment to the TG: The Get Spatial Data Set operation implementation as OpenSearch query feels strange and unnecessary: The Dataset Feed + HTTP requests for the dataset content (requirements 26 - 34) already implement the Get Spatial Data Set operation. Also the semantics of Open Search queries is that they should return a list of search hits (entries), not the actual data contents.
 
 ## Contextual XPath references
 

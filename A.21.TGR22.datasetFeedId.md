@@ -11,7 +11,7 @@ The dataset feed must provide the HTTP URI of the feed as [feed id](#feedid).
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL), Req 22
-* [RFC 4287](http://tools.ietf.org/html/rfc4287)
+* [Atom](README.md#ref_atom)
 
 **Test type**: Automated
 

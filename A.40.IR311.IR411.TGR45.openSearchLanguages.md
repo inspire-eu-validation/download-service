@@ -11,7 +11,7 @@ For each language supported by the download service, the OpenSearch description 
 
 * [IR NS](README.md#ref_IR_NS), M1, section 3 (3.1-3.2.1), 4 (4.1-4.2.1)
 * [TG DL](README.md#ref_TG_DL), Req 45
-* [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* [OpenSearch](README.md#ref_opensearch)
 
 **Test type**:
 

@@ -12,7 +12,7 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL), Req 41
-* [OpenSearch 1.1 specification](http://www.opensearch.org/Specifications/OpenSearch/1.1)
+* [OpenSearch](README.md#ref_opensearch)
 
 **Test type**:
 
@@ -20,6 +20,7 @@ Automated
 
 **Notes**
 
+* Comment to the TG text: It would be useful to also include a generic wild-card search returning the results as Atom feed in addition to HTML.
 
 ## Contextual XPath references
 

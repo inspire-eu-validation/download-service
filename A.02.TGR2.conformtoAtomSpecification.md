@@ -14,7 +14,7 @@ The Atom Download service feed and all entries for a Atom Dataset feeds must val
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL,) Req 2
-* [Atom specification](README.md#ref_atom)
+* [Atom](README.md#ref_atom)
 
 **Test type**: Automated
 

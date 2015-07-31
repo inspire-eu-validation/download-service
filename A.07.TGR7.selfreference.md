@@ -13,7 +13,7 @@ The Download Service feed must provide a self-reference link. This link must be 
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL), Req 7
-* [Atom](README-md#ref_atom)
+* [Atom](README.md#ref_atom)
 
 **Test type**: Automated
 
