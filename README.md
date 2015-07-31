@@ -25,51 +25,51 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 
 | Req#  | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ----- | ------------------------------------ | ---------------------------------- | -------------------------------- |
-| 1     | Datasets as individual entries       | [A.01.TGR1.separatedatasets](A.01.TGR1.separatedatasets.md) | |
-| 2     | Atom specification conformance       | [A.02.TGR2.conformtoAtomSpecification](A.02.TGR2.conformtoAtomSpecification.md) ||
-| 3     | GeoRSS Simple conformance            | [A.03.TGR3.conformtoGeoRSS-Simple](A.03.TGR3.conformtoGeoRSS-Simple.md) ||
-| 4     | OpenSearch conformance               | [A.04.TGR4.conformtoOpenSearch1.1](A.04.TGR4.conformtoOpenSearch1.1.md) ||
-| 5     | Download Service Feed title          | [A.05.IR221.TGR5.feedTitle](A.05.IR221.TGR5.feedTitle.md) ||
-| 6     | Metadata record link for service     | [A.06.IR511.TGR6.linkToMetadataForTheService](A.06.IR511.TGR6.linkToMetadataForTheService.md) ||
-| 7     | Download Service Feed self reference | A.07.TGR7.selfreference](A.07.TGR7.selfreference.md) ||
-| 8     | OpenSearch Description link          | [A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md) ||
-| 9     | Download Service Feed ID             | [A.09.TGR9.feedid](A.09.TGR9.feedid.md) ||
-| 10    | Download Service Rights     | [A.10.IR221.TGR10.rightselement](A.10.IR221.TGR10.rightselement.md) ||
-| 11    | Download Service Updated    | [A.11.IR221.TGR11.updatedelement](A.11.IR221.TGR11.updatedelement.md) ||
-| 12    | Download Service Author     | [A.12.IR221.TGR12.contactinformation](A.12.IR221.TGR12.contactinformation.md) ||
-| 13    | Spatial Data Set identifiers in Service Feed | [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) ||
-| 14    | Dataset metadata record links in Service Feed | [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) ||
-| 15    | Dataset Feed links in Service Feed   | [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) ||
+| 1     | Datasets as individual entries       | [A.01.TGR1.separatedatasets](A.01.TGR1.separatedatasets.md) | n/a |
+| 2     | Atom specification conformance       | [A.02.TGR2.conformtoAtomSpecification](A.02.TGR2.conformtoAtomSpecification.md) | n/a |
+| 3     | GeoRSS Simple conformance            | [A.03.TGR3.conformtoGeoRSS-Simple](A.03.TGR3.conformtoGeoRSS-Simple.md) | n/a |
+| 4     | OpenSearch conformance               | [A.04.TGR4.conformtoOpenSearch1.1](A.04.TGR4.conformtoOpenSearch1.1.md) | n/a |
+| 5     | Download Service Feed title          | [A.05.IR221.TGR5.feedTitle](A.05.IR221.TGR5.feedTitle.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
+| 6     | Metadata record link for service     | [A.06.IR511.TGR6.linkToMetadataForTheService](A.06.IR511.TGR6.linkToMetadataForTheService.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1; [IR MD](#ref_IR_MD), section 2.2.4 |
+| 7     | Download Service Feed self reference | A.07.TGR7.selfreference](A.07.TGR7.selfreference.md) | n/a |
+| 8     | OpenSearch Description link          | [A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md) |[IR NS](#ref_IR_NS), M1, section 2.2.2|
+| 9     | Download Service Feed ID             | [A.09.TGR9.feedid](A.09.TGR9.feedid.md) | n/a |
+| 10    | Download Service Rights     | [A.10.IR221.TGR10.rightselement](A.10.IR221.TGR10.rightselement.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
+| 11    | Download Service Updated    | [A.11.IR221.TGR11.updatedelement](A.11.IR221.TGR11.updatedelement.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
+| 12    | Download Service Author     | [A.12.IR221.TGR12.contactinformation](A.12.IR221.TGR12.contactinformation.md) |[IR NS](#ref_IR_NS), M1, section 2.2.1 |
+| 13    | Spatial Data Set identifiers in Service Feed | [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
+| 14    | Dataset metadata record links in Service Feed | [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
+| 15    | Dataset Feed links in Service Feed   | [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) | n/a |
 | 16    | WFS Capabilities document link       | Not covered ||
-| 17    | Dataset Feed ID in Service Feed      | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) ||
-| 18    | Dataset Feed title in Service Feed   | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) ||
-| 19    | Dataset Feed Updated element in Service Feed | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) ||
-| 20    | Dataset CRS category elements in Service Feed | [A.19.IR224.TGR20.entryCRS](A.19.IR224.TGR20.entryCRS.md) ||
-| 21    | Dataset Feed title in Dataset Feed   | [A.20.IR224.TGR21.datasetFeedTitle](A.20.IR224.TGR21.datasetFeedTitle.md) ||
-| 22    | Dataset Feed ID in Dataset Feed      | [A.21.TGR22.datasetFeedId](A.21.TGR22.datasetFeedId.md) ||
-| 23    | Dataset Feed Rights in Dataset Feed  | [A.22.IR221.TGR23.datasetFeedRights](A.22.IR221.TGR23.datasetFeedRights.md) ||
-| 24    | Dataset Updated in Dataset Feed      | [A.23.IR221.TGR24.datasetFeedUpdated](A.23.IR221.TGR24.datasetFeedUpdated.md) ||
-| 25    | Dataset Author in Dataset Feed       | [A.24.IR221.TGR25.datasetFeedContactinformation](A.24.IR221.TGR25.datasetFeedContactinformation.md) ||
-| 26    | Dataset content entry                | [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) ||
-| 27    | Dataset format/CRS specific content entries | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) ||
-| 28    | Dataset Spatial Object Type link     | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) ||
-| 29    | Dataset entry content links          | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) ||
+| 17    | Dataset Feed ID in Service Feed      | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) |n/a|
+| 18    | Dataset Feed title in Service Feed   | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) |n/a|
+| 19    | Dataset Feed Updated element in Service Feed | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) |n/a|
+| 20    | Dataset CRS category elements in Service Feed | [A.19.IR224.TGR20.entryCRS](A.19.IR224.TGR20.entryCRS.md) | [IR NS](#ref_IR_NS), M1, section 2.2.4|
+| 21    | Dataset Feed title in Dataset Feed   | [A.20.IR224.TGR21.datasetFeedTitle](A.20.IR224.TGR21.datasetFeedTitle.md) | [IR NS](#ref_IR_NS), M1, section 2.2.4|
+| 22    | Dataset Feed ID in Dataset Feed      | [A.21.TGR22.datasetFeedId](A.21.TGR22.datasetFeedId.md) |n/a|
+| 23    | Dataset Feed Rights in Dataset Feed  | [A.22.IR221.TGR23.datasetFeedRights](A.22.IR221.TGR23.datasetFeedRights.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1 |
+| 24    | Dataset Updated in Dataset Feed      | [A.23.IR221.TGR24.datasetFeedUpdated](A.23.IR221.TGR24.datasetFeedUpdated.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
+| 25    | Dataset Author in Dataset Feed       | [A.24.IR221.TGR25.datasetFeedContactinformation](A.24.IR221.TGR25.datasetFeedContactinformation.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
+| 26    | Dataset content entry                | [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) | [IR NS](#ref_IR_NS), M1, section 3.1|
+| 27    | Dataset format/CRS specific content entries | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | [IR NS](#ref_IR_NS), M1, section 3.1.3 |
+| 28    | Dataset Spatial Object Type link     | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | [IR NS](#ref_IR_NS), M1, section 4|
+| 29    | Dataset entry content links          | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | [IR NS](#ref_IR_NS), M1, section 3.1 |
 | 30    | Dataset entry content media type     | Not covered ||
-| 31    | Dataset entry content language       | [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) ||
-| 32    | Sectioned dataset entry links        | [A.30.TGR32.downloadMultipleFiles](A.30.TGR32.downloadMultipleFiles.md) ||
-| 33    | Sectioned dataset structure          | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) ||
-| 34    | Only INSPIRE media types allowed     | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) ||
-| 35    | Dataset CRS category elements in Dataset Feed | [A.33.IR224.IR313.TGR35.categoryLabelCRS](A.33.IR224.IR313.TGR35.categoryLabelCRS.md) ||
+| 31    | Dataset entry content language       | [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | [IR NS](#ref_IR_NS), M1, section 3.1.1 |
+| 32    | Sectioned dataset entry links        | [A.30.TGR32.downloadMultipleFiles](A.30.TGR32.downloadMultipleFiles.md) |n/a|
+| 33    | Sectioned dataset structure          | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) |n/a|
+| 34    | Only INSPIRE media types allowed     | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) |n/a|
+| 35    | Dataset CRS category elements in Dataset Feed | [A.33.IR224.IR313.TGR35.categoryLabelCRS](A.33.IR224.IR313.TGR35.categoryLabelCRS.md) |[IR NS](#ref_IR_NS), M1, section 3.1.3|
 | 36    | Alternate languages in Service Feed  | Not testable ||
 | 37    | Language request parameter           | Not testable ||
 | 38    | Alternate language feed interlinking | Not testable ||
-| 39    | OpenSearch Description document      | [A.34.IR222.TGR39.provideOpenSearchDescription](A.34.IR222.TGR39.provideOpenSearchDescription.md) ||
-| 40    | OpenSearch Description self reference | [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md) ||
-| 41    | OpenSearch Generic search results URL template | [A.36.TGR41.openSearchGenericSearchQueries](A.36.TGR41.openSearchGenericSearchQueries.md) ||
-| 42    | OpenSearch Describe Spatial Data Set Operation template | [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md) ||
-| 43    | OpenSearch Get Spatial Data Set Operation template | [A.38.IR3.TGR43.openSearchUrlGetSpatialDataset](A.38.IR3.TGR43.openSearchUrlGetSpatialDataset.md) ||
-| 44    | OpenSearch Spatial Data Set IDs as example queries | [A.39.IR3.IR4.TGR44.openSearchQueryExample](A.39.IR3.IR4.TGR44.openSearchQueryExample.md) ||
-| 45    | OpenSearch supported languages       | [A.40.IR311.IR411.TGR45.openSearchLanguages](A.40.IR311.IR411.TGR45.openSearchLanguages.md) ||
+| 39    | OpenSearch Description document      |[A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md) and A.36 - A.40 |[IR NS](#ref_IR_NS), M1, section 2.2.2|
+| 40    | OpenSearch Description self reference | [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md) |n/a|
+| 41    | OpenSearch Generic search results URL template | [A.36.TGR41.openSearchGenericSearchQueries](A.36.TGR41.openSearchGenericSearchQueries.md) |n/a|
+| 42    | OpenSearch Describe Spatial Data Set Operation template | [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md) | [IR NS](#ref_IR_NS), M1, section 4|
+| 43    | OpenSearch Get Spatial Data Set Operation template | [A.38.IR3.TGR43.openSearchUrlGetSpatialDataset](A.38.IR3.TGR43.openSearchUrlGetSpatialDataset.md) |n/a|
+| 44    | OpenSearch Spatial Data Set IDs as example queries | [A.39.IR3.IR4.TGR44.openSearchQueryExample](A.39.IR3.IR4.TGR44.openSearchQueryExample.md) | [IR NS](#ref_IR_NS), M1, section 4|
+| 45    | OpenSearch supported languages       | [A.40.IR311.IR411.TGR45.openSearchLanguages](A.40.IR311.IR411.TGR45.openSearchLanguages.md) |[IR NS](#ref_IR_NS), M1, section 4.1.1|
 
 ## Tests
 
@@ -110,7 +110,6 @@ This Conformance Class contains the following tests:
 | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) | TG | Yes | Ready for review |
 | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) | TG | Yes | Ready for review |
 | [A.33.IR224.IR313.TGR35.categoryLabelCRS](A.33.IR224.IR313.TGR35.categoryLabelCRS.md) | TG | Yes | Ready for review |
-| [A.34.IR222.TGR39.provideOpenSearchDescription](A.34.IR222.TGR39.provideOpenSearchDescription.md)  | TG | No | Ready for review |
 | [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md)  | TG | Yes | Ready for review |
 | [A.36.TGR41.openSearchGenericSearchQueries](A.36.TGR41.openSearchGenericSearchQueries.md)  | TG | Yes | Ready for review |
 | [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md)  | TG | Yes | Ready for review |
@@ -119,6 +118,7 @@ This Conformance Class contains the following tests:
 | [A.40.IR311.IR411.TGR45.openSearchLanguages](A.40.IR311.IR411.TGR45.openSearchLanguages.md) | TG | Yes | Ready for review |
 
 ## Open issues
+
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
