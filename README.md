@@ -121,6 +121,8 @@ This Conformance Class contains the following tests:
 
 * Is it allowed for more than one Download Service Feed to point to the same Dataset Feed? If yes, and if these Download Service Feeds contain different entries pointing to this Dataset Feed, which parent feed should be used for validation? One example for the possible conflict would be different CRS categories in the Download Service Feed entries.
 
+* Should it be allowed for the Dataset Feed to additionally contain download links to files containing the data in other CRSes than the ones mentioned in it's parent Download Service Feed, or should the CRS (category) list in the Download Service Feed entry and the corresponding Dataset Feed match exactly?
+
 ## XML namespace prefixes <a name="namespaces"></a>
 
 The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
