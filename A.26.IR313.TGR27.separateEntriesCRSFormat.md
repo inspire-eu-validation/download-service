@@ -7,7 +7,7 @@ The Dataset Feed must contain separate [entries](#entry) for each format/CRS com
  **Test method**
 
 * For all [alternative link types](#alternatelinktypes) for this Dataset Feed, check that there are no duplicate values.
-* Find and retrieve the all the Download Service Feed documents containing and entry pointing to this Dataset Feed (see note 1). For each of the entries found this way:
+* Find and retrieve the all the Download Service Feed documents containing an entry pointing to this Dataset Feed (see note 1). For each of the entries found this way:
   * For each [category element](#category) in these entries, check that at least one entry exists in the Dataset Feed containing the a category element with an identical term attribute.
 
 **Reference(s)**:
@@ -21,7 +21,8 @@ Automated
 
 **Notes**
 
-(1) The method of discovering the parent Download Service Document(s) is left to be solved by the validator implementation. If the Dataset Feed contain the [up-link](#uplink) element it must be used for the parent feed discovery. If no [up-link](#uplink) exists, the validator should use the information about the parent-child relation previously collected when validating the Download Service Feeds pointing to the Dataset Feed. If the validator has not (yet) followed any Download Service Feed entry links to validate this Dataset Feed, it should postpone validation until the parent feed is discovered.
+1. The method of discovering the parent Download Service Document(s) is left to be solved by the validator implementation. If the Dataset Feed contain the [up-link](#uplink) element it must be used for the parent feed discovery. If no [up-link](#uplink) exists, the validator should use the information about the parent-child relation previously collected when validating the Download Service Feeds pointing to the Dataset Feed. If the validator has not (yet) followed any Download Service Feed entry links to validate this Dataset Feed, it should postpone validation until the parent feed is discovered.
+2. It's allowed for the Dataset Feed to additionally contain download links to files containing the data in other CRSes than the ones mentioned in it's parent Download Service Feed.
 
 ## Contextual XPath references
 
