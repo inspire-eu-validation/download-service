@@ -103,9 +103,9 @@ This Conformance Class contains the following tests:
 | [A.24.IR221.TGR25.datasetFeedContactinformation](A.24.IR221.TGR25.datasetFeedContactinformation.md) | Ready for review |
 | [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) | Ready for review |
 | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | Ready for review |
-| [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | Draft |
-| [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | Draft |
-| [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | Draft |
+| [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | Ready for review |
+| [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | Ready for review |
+| [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | Ready for review |
 | [A.30.TGR32.downloadMultipleFiles](A.30.TGR32.downloadMultipleFiles.md) | Ready for review |
 | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) | Ready for review |
 | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) | Ready for review |
@@ -122,6 +122,8 @@ This Conformance Class contains the following tests:
 * Is it allowed for more than one Download Service Feed to point to the same Dataset Feed? If yes, and if these Download Service Feeds contain different entries pointing to this Dataset Feed, which parent feed should be used for validation? One example for the possible conflict would be different CRS categories in the Download Service Feed entries.
 
 * Should it be allowed for the Dataset Feed to additionally contain download links to files containing the data in other CRSes than the ones mentioned in it's parent Download Service Feed, or should the CRS (category) list in the Download Service Feed entry and the corresponding Dataset Feed match exactly?
+
+* Is the hreflang attribute mandatory in the Dataset Feed link entries event if the data is provided only in a single language? If so, the test [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) is not automatically testable and the should be removed.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 

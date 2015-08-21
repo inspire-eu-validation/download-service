@@ -8,8 +8,8 @@ Each feed [entry](#entry) must contain an Atom "[link](#downloadlink)" element t
 
 **Test method**
 
-* test if at least one feed entry is available with at least one [link](#downloadlink) to download a file
-* resolve all [links](#downloadlink) in the dataset feed. Use HTTP HEAD to avoid downloading large datasets where possible.
+* Test if at least one feed entry is available with at least one [link](#downloadlink) to download a file.
+* Resolve all [links](#downloadlink) in the dataset feed and check that fetching them does not result in an error or a zero-length resource. Validators may interrupt the downloads of the resources after receiving enough of the response to determine the above conditions. Validators must not create any errors considering the file format integrity or completeness.
 
 **Reference(s)**:
 

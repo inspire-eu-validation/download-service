@@ -20,7 +20,7 @@ Automated
 
 **Notes**
 
-[1] Is the hreflang attribute mandatory if data in only 1 language is provided? If so, this ATS is not automatically testable and the ATS should be removed.
+[1] Is the hreflang attribute still mandatory if data in only 1 language is provided? If not, this ATS is not automatically testable and the ATS should be removed.
 
 ## Contextual XPath references
 
