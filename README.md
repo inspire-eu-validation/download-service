@@ -102,7 +102,7 @@ This Conformance Class contains the following tests:
 | [A.23.IR221.TGR24.datasetFeedUpdated](A.23.IR221.TGR24.datasetFeedUpdated.md) | Ready for review |
 | [A.24.IR221.TGR25.datasetFeedContactinformation](A.24.IR221.TGR25.datasetFeedContactinformation.md) | Ready for review |
 | [A.25.IR31.TGR26.datasetFeedDownloadLink](A.25.IR31.TGR26.datasetFeedDownloadLink.md) | Ready for review |
-| [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | Draft |
+| [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | Ready for review |
 | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | Draft |
 | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | Draft |
 | [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | Draft |
@@ -119,6 +119,7 @@ This Conformance Class contains the following tests:
 
 ## Open issues
 
+* Is it allowed for more than one Download Service Feed to point to the same Dataset Feed? If yes, and if these Download Service Feeds contain different entries pointing to this Dataset Feed, which parent feed should be used for validation? One example for the possible conflict would be different CRS categories in the Download Service Feed entries.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
