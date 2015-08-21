@@ -40,7 +40,7 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 13    | Spatial Data Set identifiers in Service Feed | [A.13.IR221.TGR13.datasetidentifiers](A.13.IR221.TGR13.datasetidentifiers.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
 | 14    | Dataset metadata record links in Service Feed | [A.14.IR221.TGR14.linksToDatasetMetadata](A.14.IR221.TGR14.linksToDatasetMetadata.md) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
 | 15    | Dataset Feed links in Service Feed   | [A.15.TGR15.linkToDatasetFeed](A.15.TGR15.linkToDatasetFeed.md) | n/a |
-| 16    | WFS Capabilities document link       | Not covered ||
+| 16    | WFS Capabilities document link       | Not testable ||
 | 17    | Dataset Feed ID in Service Feed      | [A.16.TGR17.entryHasId](A.16.TGR17.entryHasId.md) |n/a|
 | 18    | Dataset Feed title in Service Feed   | [A.17.TGR18.entryTitle](A.17.TGR18.entryTitle.md) |n/a|
 | 19    | Dataset Feed Updated element in Service Feed | [A.18.TGR19.entryUpdated](A.18.TGR19.entryUpdated.md) |n/a|
@@ -54,7 +54,7 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 27    | Dataset format/CRS specific content entries | [A.26.IR313.TGR27.separateEntriesCRSFormat](A.26.IR313.TGR27.separateEntriesCRSFormat.md) | [IR NS](#ref_IR_NS), M1, section 3.1.3 |
 | 28    | Dataset Spatial Object Type link     | [A.27.IR4.TGR28.spatialObjectType](A.27.IR4.TGR28.spatialObjectType.md) | [IR NS](#ref_IR_NS), M1, section 4|
 | 29    | Dataset entry content links          | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | [IR NS](#ref_IR_NS), M1, section 3.1 |
-| 30    | Dataset entry content media type     | Not covered ||
+| 30    | Dataset entry content media type     | [A.28.IR31.TGR29.datasetFeedDownloadLinkDetails](A.28.IR31.TGR29.datasetFeedDownloadLinkDetails.md) | n/a |
 | 31    | Dataset entry content language       | [A.29.IR311.TGR31.languageForDownloadLink](A.29.IR311.TGR31.languageForDownloadLink.md) | [IR NS](#ref_IR_NS), M1, section 3.1.1 |
 | 32    | Sectioned dataset entry links        | [A.30.TGR32.downloadMultipleFiles](A.30.TGR32.downloadMultipleFiles.md) |n/a|
 | 33    | Sectioned dataset structure          | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) |n/a|
