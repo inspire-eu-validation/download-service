@@ -3,7 +3,7 @@ ats-download-atom
 
 Abstract Test Suite for Atom Implementation of Pre-defined Dataset Download Service of INSPIRE Download Services Technical Guidance
 
-*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+*Note*: This ATS is in ready-for-review stage, none of the tests have an official INSPIRE MIG approval.
 
 ## External document references
 
