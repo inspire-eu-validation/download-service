@@ -60,9 +60,9 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 33    | Sectioned dataset structure          | [A.31.TGR33.downloadMultipleFilesGuidance](A.31.TGR33.downloadMultipleFilesGuidance.md) |n/a|
 | 34    | Only INSPIRE media types allowed     | [A.32.TGR34.INSPIREmediaTypesOnly](A.32.TGR34.INSPIREmediaTypesOnly.md) |n/a|
 | 35    | Dataset CRS category elements in Dataset Feed | [A.33.IR224.IR313.TGR35.categoryLabelCRS](A.33.IR224.IR313.TGR35.categoryLabelCRS.md) |[IR NS](#ref_IR_NS), M1, section 3.1.3|
-| 36    | Alternate languages in Service Feed  | Not testable ||
-| 37    | Language request parameter           | Not testable ||
-| 38    | Alternate language feed interlinking | Not testable ||
+| 36    | Alternate languages in Service Feed  | Not testable | n/a |
+| 37    | Language request parameter           | Not testable | n/a |
+| 38    | Alternate language feed interlinking | Not testable | n/a |
 | 39    | OpenSearch Description document      |[A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md) and A.36 - A.40 |[IR NS](#ref_IR_NS), M1, section 2.2.2|
 | 40    | OpenSearch Description self reference | [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md) |n/a|
 | 41    | OpenSearch Generic search results URL template | [A.36.TGR41.openSearchGenericSearchQueries](A.36.TGR41.openSearchGenericSearchQueries.md) |n/a|
