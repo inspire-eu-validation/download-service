@@ -16,6 +16,8 @@ Each feed [entry](#entry) in a Download Service Feed shall contain a single [dat
 
 **Notes**
 
+There is a known problem with the Atom feed support in Internet Explorer. If the attribute type="application/Atom+xml" is part of the link-tag, the link does not work in the Internet Explorer. Without the attribute, the links work in the Internet Explorer.
+
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](README.md#namespaces).
