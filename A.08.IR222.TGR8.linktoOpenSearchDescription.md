@@ -20,7 +20,7 @@ The Download Service feed must provide a [link to an OpenSearch Description docu
 
 **Notes**
 
-The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the the [hreflang attribute](#hreflang) from requirement 8.
+The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the [hreflang attribute](#hreflang) from requirement 8.
 
 ## Contextual XPath references
 
