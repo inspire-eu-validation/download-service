@@ -9,7 +9,7 @@ All feeds must conform to the Atom specification RFC 4287
 The Atom Download service feed and all entries for a Atom Dataset feeds must validate against the [Atom specification](README.md#ref_atom).
 
 * validate the Atom service feed to RFC 4287
-* for each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, resolve the link the referenced Atom feed and validate that to RFC 4287
+* for each [link to an Atom dataset feed](#atom_dataset_feed_link) in the service feed, resolve the link to the referenced Atom feed and validate that to RFC 4287
 
 **Reference(s)**:
 
