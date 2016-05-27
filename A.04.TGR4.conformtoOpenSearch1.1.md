@@ -12,7 +12,7 @@ The referenced OpenSearch Description must conform to the OpenSearch 1.1 specifi
 **Reference(s)**:
 
 * [TG DL](README.md#ref_TG_DL), Req 4
-* [OpenSearch](README.md#ref_opensearch)
+* [OpenSearch](README.md#ref_opensearch) version: Draft 5
 
 **Test type**: Automated
 
