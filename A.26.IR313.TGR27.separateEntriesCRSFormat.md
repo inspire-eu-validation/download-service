@@ -7,8 +7,7 @@ The Dataset Feed must contain separate [entries](#entry) for each format/CRS com
  **Test method**
 
 * For all [alternative link types](#alternatelinktypes) for this Dataset Feed, check that there are no duplicate values.
-* Find and retrieve the all the Download Service Feed documents containing an entry pointing to this Dataset Feed (see note 1). For each of the entries found this way:
-  * For each [category element](#category) in these entries, check that at least one entry exists in the Dataset Feed containing the a category element with an identical term attribute.
+* For each [category element](#category) in the Download Service feed entity, which included the link to the Dataset feed document, check that at least one entry exists in the Dataset feed containing a category element with an identical term attribute.
 
 **Reference(s)**:
 
