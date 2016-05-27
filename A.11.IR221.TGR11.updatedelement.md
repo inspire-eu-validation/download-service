@@ -6,8 +6,8 @@ The Download Service feed must provide information about the date, time and time
 
  **Test method**
 
-* check if the [updated element](#updatedelement) exists and contains a [correctly formatted date](#validdate), including time and timezone.
-* the date must not be in the future or too far in the past
+* check if the [updated element](#updatedelement) provides a [correctly formatted date](#validdate)
+* the date must not be in the future or before the year 2012
 
 **Reference(s)**:
 
@@ -28,4 +28,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 updated element <a name="updatedelement"></a> | /atom:feed/atom:updated
-correctly formatted date <a name="validdate"></a> | year-from-dateTime(xs:dateTime(atom:updated))
+correctly formatted date <a name="validdate"></a> | year-from-dateTime(xs:dateTime(/atom:feed/atom:updated))
