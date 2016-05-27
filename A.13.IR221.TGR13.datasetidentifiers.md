@@ -10,7 +10,6 @@ The Download Service feed must provide the INSPIRE identifier elements [dataset 
 
 For each [entry](#entry):
 * the [dataset identifier code](#datasetidentifiercode) and [dataset identifier namespace](#datasetidentifiernamespace) must be non-empty text elements; the text content of both elements must include at least one alpha-numeric letter.
-* the [dataset identifier code](#datasetidentifiercode) and [dataset identifier namespace](#datasetidentifiernamespace) must be present in the metadata document of the service
 
 **Reference(s)**:
 
