@@ -24,7 +24,7 @@ The Download Service feed must provide a link to a metadata record, that describ
 
 **Notes**
 
-Note 2: the INSPIRE language request parameters in the Resource Locator to the Atom Download Service Feed URLs must be ignored in the comparison.
+[1] the INSPIRE language request parameters in the Resource Locator to the Atom Download Service Feed URLs must be ignored in the comparison of the last step of the test method
 
 ## Contextual XPath references
 
