@@ -6,7 +6,7 @@ Where alternative language representations of datasets are linked to, the \" [hr
 
 **Test method**
 
-* test if the download [link](#downloadlink) provides the [hreflang attribute](#hreflang)
+* if an [entry](#entry) has more than 1 download [link](#downloadlink), test that each of these download links provides the [hreflang attribute](#hreflang)
 
 **Reference(s)**:
 
@@ -18,15 +18,12 @@ Where alternative language representations of datasets are linked to, the \" [hr
 
 Automated
 
-**Notes**
-
-[1] Is the hreflang attribute still mandatory if data in only 1 language is provided? If not, this ATS is not automatically testable and the ATS should be removed.
-
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+entry <a name="entry"></a> | //atom:entry/
 link <a name="downloadlink"></a> | //atom:entry/atom:link[(@rel='alternate' and @type!='application/atom+xml' and number(@length) > 0) or (@rel='section')]
 hreflang <a name="hreflang"></a> | //atom:link[@rel=('alternate','section')]/@hreflang
