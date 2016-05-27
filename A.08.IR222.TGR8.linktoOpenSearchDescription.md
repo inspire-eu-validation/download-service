@@ -7,7 +7,7 @@ The Download Service feed must provide a [link to an OpenSearch Description docu
  **Test method**
 
 * check existence of the [link to an OpenSearch Description document](#opensearchlink)
-* the [link to an OpenSearch Description document](#opensearchlink) must resolve to a valid OpenSearch Description Document
+* the [link to an OpenSearch Description document](#opensearchlink) must resolve to a OpenSearch Description Document
 
 
 **Reference(s)**:
@@ -19,6 +19,8 @@ The Download Service feed must provide a [link to an OpenSearch Description docu
 **Test type**: Automated
 
 **Notes**
+
+[1] Test on validity of the OpenSearch Description Document is covered in [A.04.TGR4.conformtoOpenSearch1.1.md](A.04.TGR4.conformtoOpenSearch1.1.md)
 
 The [hreflang attribute](#hreflang) that is referred to in the TG seems to be unnecessary. The MIWP-5 workgroup recommends the TG editors to remove the part regarding the [hreflang attribute](#hreflang) from requirement 8.
 
