@@ -8,7 +8,7 @@ The Download Service feed must provide a self-reference link. This link must be 
 
 * check existence of the [self link](#selflink)
 * the [self link](#selflink) must be the same as the Download Service feed URI
-* the [self link](#selflink)'s [hreflang attribute](#hreflang) must be the same as the [xml:lang attribute](#xmllang) of the Atom feed or if the [xml:lang attribute](#xmllang) is not given, it must be the default language code defined in the OpenSearch description.
+* the [self link](#selflink)'s [hreflang attribute](#hreflang) must be the same as the [xml:lang attribute](#xmllang) of the Atom feed or if the [xml:lang attribute](#xmllang) is not given, it must be the [language code](#languageelement) defined in the OpenSearch description.
 
 **Reference(s)**:
 
@@ -28,3 +28,4 @@ Abbreviation                                               |  XPath expression
 self link <a name="selflink"></a> | /atom:feed/atom:link[@rel='self' and @type='application/atom+xml']/@href
 hreflang attribute <a name="hreflang"></a> | /atom:feed/atom:link[@rel='self' and @type='application/atom+xml']/@hreflang
 xml:lang attribute <a name="xmllang"></a> | /atom:feed/atom:title/@xml:lang
+language code <a name="languageelement"></a> | /os:OpenSearchDescription/os:Language[1]
