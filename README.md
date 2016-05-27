@@ -63,7 +63,7 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 36    | Alternate languages in Service Feed  | Not testable | n/a |
 | 37    | Language request parameter           | Not testable | n/a |
 | 38    | Alternate language feed interlinking | Not testable | n/a |
-| 39    | OpenSearch Description document      |[A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md) and A.36 - A.40 |[IR NS](#ref_IR_NS), M1, section 2.2.2|
+| 39    | OpenSearch Description document      |[A.08.IR222.TGR8.linktoOpenSearchDescription](A.08.IR222.TGR8.linktoOpenSearchDescription.md), [A.36.TGR41.openSearchGenericSearchQueries.md](A.36.TGR41.openSearchGenericSearchQueries.md), [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md), [A.38.IR3.TGR43.openSearchUrlGetSpatialDataset](A.38.IR3.TGR43.openSearchUrlGetSpatialDataset.md), [A.39.IR3.IR4.TGR44.openSearchQueryExample](A.39.IR3.IR4.TGR44.openSearchQueryExample.md) and [A.40.IR311.IR411.TGR45.openSearchLanguages](A.40.IR311.IR411.TGR45.openSearchLanguages.md) |[IR NS](#ref_IR_NS), M1, section 2.2.2|
 | 40    | OpenSearch Description self reference | [A.35.TGR40.openSearchSelfreference](A.35.TGR40.openSearchSelfreference.md) |n/a|
 | 41    | OpenSearch Generic search results URL template | [A.36.TGR41.openSearchGenericSearchQueries](A.36.TGR41.openSearchGenericSearchQueries.md) |n/a|
 | 42    | OpenSearch Describe Spatial Data Set Operation template | [A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset](A.37.IR4.TGR42.openSearchUrlDescribeSpatialDataset.md) | [IR NS](#ref_IR_NS), M1, section 4|
