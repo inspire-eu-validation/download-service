@@ -7,6 +7,8 @@ The updated element of an entry must be populated with a date, time and timezone
 **Test method**
 
 * For each [entry](#entry) in the Download Service Feed, check if the [updated](#updated) element provides a [valid date](#validdate).
+* A date must not be in the future or before the year 2012.
+
 
 **Reference(s)**:
 
