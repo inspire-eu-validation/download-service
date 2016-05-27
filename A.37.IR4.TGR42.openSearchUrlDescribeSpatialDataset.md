@@ -7,7 +7,7 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 **Test method**
 
 * test if the OpenSearch Description provides a [Describe Spatial Dataset url](#describespatialdataseturl)
-* for this [Describe Spatial Dataset url](#describespatialdataseturl), fill in the parameters for "spatial_dataset_identifier_code", "spatial_dataset_identifier_namespace" and "language" and resolve the [Describe Spatial Dataset url](#describespatialdataseturl) and test if it provides a document with content-type "application/atom+xml"
+* for this [Describe Spatial Dataset url](#describespatialdataseturl), fill in the parameters for "spatial_dataset_identifier_code", "spatial_dataset_identifier_namespace" and "language" and resolve the [Describe Spatial Dataset url](#describespatialdataseturl) and test if it provides a document with the HTTP Header Content-Type "application/atom+xml"
 
 **Reference(s)**:
 
