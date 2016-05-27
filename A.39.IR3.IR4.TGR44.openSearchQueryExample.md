@@ -14,7 +14,7 @@ For each ["Query" element](#queryelement):
 * test if the response is an Atom feed containing at least one [category CRS](#categorycrs)
 * For each [category CRS](#categorycrs), create a [Get Spatial Dataset url](#getspatialdataseturl) with the CRS, the provided inspire_dls:spatial_dataset_identifier_code and inspire_dls:spatial_dataset_identifier_namespace
 * resolve the [Get Spatial Dataset url](#getspatialdataseturl)
-* check the HTTP response code to be a valid code from: 200,206,301,303,303
+* check the HTTP response code to be a valid code from: 200,206,301,302,303
 
 **Reference(s)**:
 
