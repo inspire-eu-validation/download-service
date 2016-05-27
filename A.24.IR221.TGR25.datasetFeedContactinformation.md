@@ -18,7 +18,6 @@ The dataset feed must provide contact information about the individual or organi
 
 **Notes**
 
-[1] A regular expression could be used to validate the email address. Several regular expressions are available; the workgroup could choose one.
 
 ## Contextual XPath references
 
