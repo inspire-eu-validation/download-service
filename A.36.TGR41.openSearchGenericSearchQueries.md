@@ -7,7 +7,7 @@ The OpenSearch description must contain a ["Url" element](#urlelement) that desc
 **Test method**
 
 * test if the OpenSearch Description provides a [generic search queries url](#genericsearchurl)
-* resolve the [generic search queries url](#genericsearchurl) and test if it provides a document with content-type "text/html"
+* resolve the [generic search queries url](#genericsearchurl) and test if it provides a document with HTTP Header Content-Type "text/html"
 
 **Reference(s)**:
 
