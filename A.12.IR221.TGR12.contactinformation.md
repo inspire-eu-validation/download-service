@@ -18,8 +18,6 @@ The Download Service feed must provide contact information about the individual 
 
 **Notes**
 
-[1] A regular expression could be used to validate the email address. Several regular expressions are available; the workgroup could choose one.
-
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](README.md#namespaces).
