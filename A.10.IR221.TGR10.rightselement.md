@@ -17,8 +17,7 @@ The Download Service feed must provide information about rights or restrictions 
 
 **Notes**
 
-[1] Consider the rights element on the highest level of the feed only (/atom:feed/atom:rights) or also on all entries in the feed (//atom:entry/atom:rights)?
-[2] It is only possible to for existence of an alphanumerical character; testing the contents of the element is not possible to implement without further specification
+[1] It is only possible to test for existence of an alphanumerical character; testing the contents of the element is not possible to implement without further specification
 
 ## Contextual XPath references
 
