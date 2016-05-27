@@ -6,7 +6,8 @@ The Download Service feed must provide the HTTP URI of the feed as [feed id](#fe
 
  **Test method**
 
-* compare the [feed id](#feedid) to the HTTP URI of the feed, that is being tested currently
+* test that the [feed id](#feedid) is an HTTP URI
+* resolve the [feed id](#feedid) and test if the returned document is the same as the Download Service feed that is being tested currently
 
 **Reference(s)**:
 
