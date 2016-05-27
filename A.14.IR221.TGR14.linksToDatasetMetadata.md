@@ -13,8 +13,6 @@ For each [entry](#entry):
 * the [link to a Dataset metadata record](#datasetdescribedbylink) must be a valid HTTP URI
 * there must be only one [link to a Dataset metadata record](#datasetdescribedbylink)
 * resolve the [link to a Dataset metadata record](#datasetdescribedbylink) to get the Dataset metadata record
-* test if the Dataset metadata record contains a root element /gmd:Metadata
-* test if the [dataset identifier](#datasetidentifier) in the Dataset metadata record is present in the metadata document of the service and in the Download Service feed
 
 **Reference(s)**:
 
