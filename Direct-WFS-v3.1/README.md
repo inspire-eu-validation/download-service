@@ -1,7 +1,7 @@
-ats-download-directaccess-wfs
-=============================
+Direct WFS v3.1
+===============
 
-Abstract Test Suite for INSPIRE Download Services WFS &amp; FE direct access download conformance class
+Conformance Class for INSPIRE Download Services WFS &amp; FE direct access download conformance class
 (INSPIRE Download Service parts B & C).
 
 *Note*: This ATS is in ready-for-review stage, the ATS has no official INSPIRE MIG approval.
