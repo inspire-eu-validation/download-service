@@ -7,9 +7,9 @@ This language selection must be reflected in the provided capabilities document.
 
 * OGC WFS 2.0.0, A.1.1 Simple WFS
 * OGC WFS 2.0.0, A.1.5 HTTP GET
-* [Extended capabilities](Extended capabilities.md)
-* [Provide Response Language](Provide Response Language.md)
-* [Provide Supported Languages](Provide Supported Languages.md)
+* [Extended capabilities](extended-capabilities.md)
+* [Provide Response Language](provide-response-language.md)
+* [Provide Supported Languages](provide-supported-languages.md)
 
 **Test method**
 

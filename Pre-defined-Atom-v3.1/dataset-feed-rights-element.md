@@ -6,7 +6,7 @@ The dataset feed must provide information about rights or restrictions for that 
 
  **Test method**
 
-* the [rights element](#rightselement) must be non-empty text; the text content must include at least one alpha-numeric letter.
+* The [rights element](#rightselement) must be non-empty text; the text content must include at least one alpha-numeric letter.
 
 **Reference(s)**:
 

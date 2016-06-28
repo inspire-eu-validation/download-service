@@ -24,18 +24,18 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 46     | ISO 19142 Simple WFS compliance      | OGC WFS 2.0.0, A.1.1 Simple WFS    | n/a |
 | 47     | ISO 19143 Query compliance           | OGC FES 2.0, A.1 Test cases for query | n/a |
 | 48     | ISO 19142 HTTP GET compliance        | OGC WFS 2.0.0, A.1.5 HTTP GET      | n/a |
-| 49     | Use stored queries for datasets      | [Predefined Stored Query](Predefined Stored Query.md) | |
-| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](Predefined Stored Query.md) | |
-| 51     | Fixed stored query parameter names   | [Predefined Stored Query](Predefined Stored Query.md) | |
+| 49     | Use stored queries for datasets      | [Predefined Stored Query](predefined-stored-query.md) | |
+| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](predefined-stored-query.md) | |
+| 51     | Fixed stored query parameter names   | [Predefined Stored Query](predefined-stored-query.md) | |
 | 52     | Separate service for each dataset    | | |
-| 53     | INSPIRE metadata in extended Capabilities | [Service Metadata](Service Metadata.md) | |
-| 54     | List of supported languages          | [Provide Supported Languages](Provide Supported Languages.md) | |
-| 55     | User may select the language         | [Language affects capabilities](Language affects capabilities.md) | |
-| 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](Language affects capabilities.md) | |
-| 57     | Title & abstract fallback language   | [Provide Default Language](Provide Default Language.md) | |
-| 58     | ResponseLanguage element             | [Provide Response Language](Provide Response Language.md) | |
-| 59     | SupportedLanguages element           | [Provide Supported Languages](Provide Supported Languages.md), [Provide Default Language](Provide Default Language.md) | |
-| 60     | Extended capabilities schema         | [Extended capabilities](Extended capabilities.md) | |
+| 53     | INSPIRE metadata in extended Capabilities | [Service Metadata](service-metadata.md) | |
+| 54     | List of supported languages          | [Provide Supported Languages](provide-supported-languages.md) | |
+| 55     | User may select the language         | [Language affects capabilities](language-affects-capabilities.md) | |
+| 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](language-affects-capabilities.md) | |
+| 57     | Title & abstract fallback language   | [Provide Default Language](provide-default-language.md) | |
+| 58     | ResponseLanguage element             | [Provide Response Language](provide-response-language.md) | |
+| 59     | SupportedLanguages element           | [Provide Supported Languages](provide-supported-languages.md), [Provide default language](provide-default-language.md) | |
+| 60     | Extended capabilities schema         | [Extended capabilities](extended-capabilities.md) | |
 
 ## Tests
 
@@ -43,13 +43,13 @@ The ATS for the TG Conformance Class 2: Pre-defined WFS: Implement Pre-Defined D
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [Extended capabilities](Extended capabilities.md) | Ready for review |
-| [Predefined Stored Query](Predefined Stored Query.md) | Ready for review    |
-| [Service Metadata](Service Metadata.md)   | Ready for review    |
-| [Language affects capabilities](Language affects capabilities.md) | Ready for review |
-| [Provide Response Language](Provide Response Language.md)    | Ready for review    |
-| [Provide Supported Languages](Provide Supported Languages.md)   | Ready for review    |
-| [Provide Default Language](Provide Default Language.md) | Ready for review |
+| [Extended capabilities](extended-capabilities.md) | Ready for review |
+| [Predefined Stored Query](predefined-stored-query.md) | Ready for review    |
+| [Service Metadata](service-metadata.md)   | Ready for review    |
+| [Language affects capabilities](language-affects-capabilities.md) | Ready for review |
+| [Provide Response Language](provide-response-language.md)    | Ready for review    |
+| [Provide Supported Languages](provide-supported-languages.md)   | Ready for review    |
+| [Provide Default Language](provide-default-language.md) | Ready for review |
 
 ## Notes
 

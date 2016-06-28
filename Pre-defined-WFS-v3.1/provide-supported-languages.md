@@ -6,7 +6,7 @@
 
 * OGC WFS 2.0.0, A.1.1 Simple WFS
 * OGC WFS 2.0.0, A.1.5 HTTP GET
-* [Extended capabilities](Extended capabilities.md)
+* [Extended capabilities](extended-capabilities.md)
 
 **Test method**
 

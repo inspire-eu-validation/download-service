@@ -5,7 +5,7 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 
 **Prerequisites**
 
-* [Extended capabilities](Extended capabilities.md)
+* [Extended capabilities](extended-capabilities.md)
 
 **Test method**
 

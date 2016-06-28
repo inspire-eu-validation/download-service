@@ -5,7 +5,7 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 
 **Prerequisites**
 
-* [Extended capabilities](Extended capabilities.md)
+* [Extended capabilities](extended-capabilities.md)
 
 **Test method**
 
