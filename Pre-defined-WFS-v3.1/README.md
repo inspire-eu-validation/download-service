@@ -24,18 +24,18 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 46     | ISO 19142 Simple WFS compliance      | OGC WFS 2.0.0, A.1.1 Simple WFS    | n/a |
 | 47     | ISO 19143 Query compliance           | OGC FES 2.0, A.1 Test cases for query | n/a |
 | 48     | ISO 19142 HTTP GET compliance        | OGC WFS 2.0.0, A.1.5 HTTP GET      | n/a |
-| 49     | Use stored queries for datasets      | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
-| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
-| 51     | Fixed stored query parameter names   | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
+| 49     | Use stored queries for datasets      | [Predefined Stored Query](Predefined Stored Query.md) | |
+| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](Predefined Stored Query.md) | |
+| 51     | Fixed stored query parameter names   | [Predefined Stored Query](Predefined Stored Query.md) | |
 | 52     | Separate service for each dataset    | | |
-| 53     | INSPIRE metadata in extended Capabilities | [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md) | |
-| 54     | List of supported languages          | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
-| 55     | User may select the language         | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
-| 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
-| 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
-| 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md) | |
-| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
-| 60     | Extended capabilities schema         | [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | |
+| 53     | INSPIRE metadata in extended Capabilities | [Service Metadata](Service Metadata.md) | |
+| 54     | List of supported languages          | [Provide Supported Languages](Provide Supported Languages.md) | |
+| 55     | User may select the language         | [Language affects capabilities](Language affects capabilities.md) | |
+| 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](Language affects capabilities.md) | |
+| 57     | Title & abstract fallback language   | [Provide Default Language](Provide Default Language.md) | |
+| 58     | ResponseLanguage element             | [Provide Response Language](Provide Response Language.md) | |
+| 59     | SupportedLanguages element           | [Provide Supported Languages](Provide Supported Languages.md), [Provide Default Language](Provide Default Language.md) | |
+| 60     | Extended capabilities schema         | [Extended capabilities](Extended capabilities.md) | |
 
 ## Tests
 
@@ -43,13 +43,13 @@ The ATS for the TG Conformance Class 2: Pre-defined WFS: Implement Pre-Defined D
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | Ready for review |
-| [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | Ready for review    |
-| [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md)   | Ready for review    |
-| [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | Ready for review |
-| [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md)    | Ready for review    |
-| [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md)   | Ready for review    |
-| [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | Ready for review |
+| [Extended capabilities](Extended capabilities.md) | Ready for review |
+| [Predefined Stored Query](Predefined Stored Query.md) | Ready for review    |
+| [Service Metadata](Service Metadata.md)   | Ready for review    |
+| [Language affects capabilities](Language affects capabilities.md) | Ready for review |
+| [Provide Response Language](Provide Response Language.md)    | Ready for review    |
+| [Provide Supported Languages](Provide Supported Languages.md)   | Ready for review    |
+| [Provide Default Language](Provide Default Language.md) | Ready for review |
 
 ## Notes
 
