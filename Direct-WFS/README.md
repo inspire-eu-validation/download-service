@@ -32,8 +32,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 68     | ISO 19143 Minimum XPath              | OGC FES 2.0, A.14 Test cases for XPath | n/a |
 
 *Note*: These requirements are only for fulfilling the INSPIRE Download Service parts B & C. For a complete INSPIRE compliant Download Service, the additional requirements for the part A still need to be
-covered either by [Atom/OpenSearch](https://github.com/inspire-eu-validation/ats-download-atom) or
-the [predefined dataset WFS](https://github.com/inspire-eu-validation/ats-download-predefined-wfs) ATS.
+covered either by [Atom/OpenSearch](http://inspire.ec.europa.eu/id/ats/download-services/3.1/Pre-defined-Atom) or
+the [predefined dataset WFS](http://inspire.ec.europa.eu/id/ats/download-services/3.1/Pre-defined-WFS) CC.
 
 ## Tests
 
