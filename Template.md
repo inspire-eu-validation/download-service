@@ -2,21 +2,26 @@
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 
+**Prerequisites**
+
+* [Schema validation](schema-validation.md)
+
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
+A paragraph of the for describing the test steps and assertions. Use bullets or any markdown formatting as necessary:
 
 * Use the XPath abbreviations as links in the text: [ExtendedCapabilities](#extendedCapabilities) must exist...
 * Step 2,...
 
-**Reference(s)**: references to the referred documents. we should agree on abbreviations and collect them as a table in [readme.md](readme.md)
+**Reference(s)**: 
+
+* References to the requirements. we should agree on abbreviations and collect them as a table in [readme.md](readme.md)
 
 **Test type**: Automated or Manual
 
 **Notes**
 
 Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 
