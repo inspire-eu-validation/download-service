@@ -1,7 +1,5 @@
 # Abstract Test Suite: INSPIRE Download Services Technical Guidance (DRAFT)
 
-*NOTE: Rename repository from "ats-download-atom" to "download-service".*
-
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
