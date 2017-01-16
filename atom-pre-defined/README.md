@@ -137,8 +137,8 @@ This Conformance Class contains the following tests:
 | [Provide link to metadata record for Download Service](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-link-to-metadata-record) | ready for review |
 | [Schema validation](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/schema-validation) | ready for review |
 | [Separate dataset individual Atom service feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-per-dataset) | ready for review |
-| [Separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries.md) | ready for review |
-| [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type.md) | ready for review |
+| [Separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries) | ready for review |
+| [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type) | ready for review |
 
 
 ## Open issues
