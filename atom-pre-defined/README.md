@@ -102,43 +102,43 @@ This Conformance Class contains the following tests:
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [Dataset feed contact information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-contact-information) | ready for review |
-| [Dataset feed HTTP URI](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-id) | ready for review |
-| [Dataset feed link download dataset](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-download-dataset) | ready for review |
-| [Dataset feed rights element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-rights-element) | ready for review |
+| [Dataset Feed contact information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-contact-information) | ready for review |
+| [Dataset Feed HTTP URI](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-id) | ready for review |
+| [Dataset Feed link download dataset](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-download-dataset) | ready for review |
+| [Dataset Feed rights element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-rights-element) | ready for review |
 | [Dataset Feed title](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-title) | ready for review |
-| [Dataset feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-updated-element) | ready for review |
-| [Download Service feed contact information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-contact-information) | ready for review |
-| [Download Service feed CRS information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-crs-information) | ready for review |
-| [Download Service feed dataset identifiers](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-dataset-identifiers) | ready for review |
-| [Download Service feed HTTP URI](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-id) | ready for review |
-| [Download Service feed identifiers](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-identifiers) | ready for review |
-| [Download Service feed link OpenSearch Description document](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-link-opensearch-description-document) | ready for review |
-| [Download Service feed link to WFS Capabilities document](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-wfs-link) | ready for review |
-| [Download Service feed links dataset feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-feed) | ready for review |
-| [Download Service feed links dataset metadata records](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-metadata-records) | ready for review |
-| [Download Service feed rights element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-rights-element) | ready for review |
-| [Download Service feed self-reference link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-self-reference-link.md) | ready for review |
-| [Download Service feed title](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-titles) | ready for review |
-| [Download Service feed updated element date](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element-date) | ready for review |
-| [Download Service feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element) | ready for review |
-| [Each entry has CRS information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-crs) | ready for review |
-| [Language for download link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-dataset-language) | ready for review |
-| [Links for Spatial Object Types](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-links-spatial-object-types) | ready for review |
-| [Multiple links for multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files) | ready for review |
+| [Dataset Feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-updated-element) | ready for review |
+| [Dataset Feed each entry has CRS information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-crs) | ready for review |
+| [Dataset Feed language for download link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-dataset-language) | ready for review |
+| [Dataset Feed links for Spatial Object Types](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-links-spatial-object-types) | ready for review |
+| [Dataset Feed multiple links for multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files) | ready for review |
+| [Dataset Feed separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries) | ready for review |
+| [Dataset Feed use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type) | ready for review |
+| [Dataset Feed provide guidance for downloading multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files-description) | ready for review |
+| [Download Service Feed contact information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-contact-information) | ready for review |
+| [Download Service Feed CRS information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-crs-information) | ready for review |
+| [Download Service Feed dataset identifiers](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-dataset-identifiers) | ready for review |
+| [Download Service Feed HTTP URI](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-id) | ready for review |
+| [Download Service Feed identifiers](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-identifiers) | ready for review |
+| [Download Service Feed link OpenSearch Description document](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-link-opensearch-description-document) | ready for review |
+| [Download Service Feed link to WFS Capabilities document](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-wfs-link) | ready for review |
+| [Download Service Feed links dataset feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-feed) | ready for review |
+| [Download Service Feed links dataset metadata records](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-metadata-records) | ready for review |
+| [Download Service Feed rights element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-rights-element) | ready for review |
+| [Download Service Feed self-reference link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-self-reference-link.md) | ready for review |
+| [Download Service Feed title](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-titles) | ready for review |
+| [Download Service Feed updated element date](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element-date) | ready for review |
+| [Download Service Feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element) | ready for review |
+| [Download Service Feed provide a title element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-title) | ready for review |
+| [Download Service Feed provide link to metadata record for Download Service](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-link-to-metadata-record) | ready for review |
+| [Download Service Feed separate dataset individual Atom service feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-per-dataset) | ready for review |
 | [OpenSearch Description one URL Get Spatial Dataset operation](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-one-url-get-spatial-dataset-operation) | ready for review |
 | [OpenSearch Description provides languages](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-provides-languages) | ready for review |
 | [OpenSearch Description Query examples for each dataset](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-query-examples-for-each-dataset) | ready for review |
 | [OpenSearch Description URI to itself](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-uri-to-itself) | ready for review |
 | [OpenSearch Description URL Describe Spatial Dataset operation](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-url-describe-spatial-dataset-operation) | ready for review |
 | [OpenSearch Description URL generic search queries](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/opensearch-description-url-generic-search-queries) | ready for review |
-| [Provide a title element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-title) | ready for review |
-| [Provide guidance for downloading multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files-description) | ready for review |
-| [Provide link to metadata record for Download Service](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-link-to-metadata-record) | ready for review |
 | [Schema validation](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/schema-validation) | ready for review |
-| [Separate dataset individual Atom service feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-per-dataset) | ready for review |
-| [Separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries) | ready for review |
-| [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type) | ready for review |
 
 
 ## Open issues
