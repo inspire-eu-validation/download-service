@@ -76,14 +76,14 @@ Based on requirement numbering in [TG DL](#ref_TG_DL).
 | 24    | Dataset Updated in Dataset Feed      | [Dataset feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-updated-element) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
 | 25    | Dataset Author in Dataset Feed       | [Dataset feed contact information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-contact-information) | [IR NS](#ref_IR_NS), M1, section 2.2.1|
 | 26    | Dataset content entry                | [Dataset feed link download dataset](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-download-dataset) | [IR NS](#ref_IR_NS), M1, section 3.1|
-| 27    | Dataset format/CRS specific content entries | [Separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries.md) | [IR NS](#ref_IR_NS), M1, section 3.1.3 |
+| 27    | Dataset format/CRS specific content entries | [Separate entries for each format/CRS combination](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-entries) | [IR NS](#ref_IR_NS), M1, section 3.1.3 |
 | 28    | Dataset Spatial Object Type link     | [Links for Spatial Object Types](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-links-spatial-object-types) | [IR NS](#ref_IR_NS), M1, section 4|
 | 29    | Dataset entry content links          | [Dataset feed link download dataset](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-download-dataset) | [IR NS](#ref_IR_NS), M1, section 3.1 |
-| 30    | Dataset entry content media type     | [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type.md) | n/a |
+| 30    | Dataset entry content media type     | [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type) | n/a |
 | 31    | Dataset entry content language       | [Language for download link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-dataset-language) | [IR NS](#ref_IR_NS), M1, section 3.1.1 |
 | 32    | Sectioned dataset entry links        | [Multiple links for multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files) |n/a|
 | 33    | Sectioned dataset structure          | [Provide guidance for downloading multiple physical files](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-multiple-files-description) |n/a|
-| 34    | Only INSPIRE media types allowed     | [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type.md) |n/a|
+| 34    | Only INSPIRE media types allowed     | [Use INSPIRE media-types only](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-link-media-type) |n/a|
 | 35    | Dataset CRS category elements in Dataset Feed | [Each entry has CRS information](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/dataset-feed-crs) |[IR NS](#ref_IR_NS), M1, section 3.1.3|
 | 36    | Alternate languages in Service Feed  | Requirement always met | n/a |
 | 37    | Language request parameter           | Requirement always met | n/a |
@@ -112,7 +112,7 @@ This Conformance Class contains the following tests:
 | [Download Service Feed links dataset feed](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-feed) | ready for review |
 | [Download Service Feed links dataset metadata records](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-links-dataset-metadata-records) | ready for review |
 | [Download Service Feed rights element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-rights-element) | ready for review |
-| [Download Service Feed self-reference link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-self-reference-link.md) | ready for review |
+| [Download Service Feed self-reference link](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-self-reference-link) | ready for review |
 | [Download Service Feed title](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-entry-titles) | ready for review |
 | [Download Service Feed updated element date](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element-date) | ready for review |
 | [Download Service Feed updated element](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined/download-service-feed-updated-element) | ready for review |
