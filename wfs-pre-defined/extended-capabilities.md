@@ -2,7 +2,7 @@
 
 **Purpose**: The INSPIRE extended metadata is provided using the elements defined in the INSPIRE ExtendedCapabilities
 XML Schema for ISO 19142. The purpose of this test is to verify that the INSPIRE ExtendedCapabilities root element
-is included in the WFS GetCapabilities responsem and that the contents of the root element are valid according to the
+is included in the WFS GetCapabilities response and that the contents of the root element are valid according to the
 XML Schema for the INSPIRE WFS ExtendedCapabilities.
 
 **Prerequisites**
@@ -10,7 +10,7 @@ XML Schema for the INSPIRE WFS ExtendedCapabilities.
 **Test method**
 
 * Check that the [ExtendedCapabilities](#ExtendedCapabilities) exists. If it does
-  * Validate the [ExtendedCapabilities](#ExtendedCapabilities) element and it's children according to the XML Schema definition for the WFS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
+  * Validate the [ExtendedCapabilities](#ExtendedCapabilities) element and its children according to the XML Schema definition for the WFS INSPIRE ExtendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
   * If the validation passes, pass the test.
 * If no ExtendedCapabilities were found or validation fails, fail the test.
 
