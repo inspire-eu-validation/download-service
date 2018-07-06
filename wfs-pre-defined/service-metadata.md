@@ -11,12 +11,12 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 
 * Perform a GetCapabilities request
 * Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
-* Check if all mandatory metadata elements as specified in Table 4 of the TG exist in the [ExtendedCapabilities](#ExtendedCapabilities) section.
+* Check if all mandatory metadata elements as specified in Table 19 of the TG exist in the [ExtendedCapabilities](#ExtendedCapabilities) section.
 * If a [inspire_common:MetadataURL](#inspireCommonMetadataUrl) is provided, request the Metadata document with this URL. Check if the response is a valid Metadata document.
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/README#ref_TG_DL), Requirement 53, Table 4
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/README#ref_TG_DL), Requirement 53, Table 19
 
 **Test type**:
 
