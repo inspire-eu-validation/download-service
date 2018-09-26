@@ -4,21 +4,12 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-<<<<<<< Updated upstream
 | [Pre-defined Atom](./atom-pre-defined) | Atom feed with Open Search description |
 | [Pre-defined WFS](./wfs-pre-defined) | OGC Web Service (WFS 2.0.0) |
 | [Direct WFS](./wfs-direct) | OGC Web Service (WFS 2.0.0) |
 | [INSPIRE Quality of Service](./wfs-qos) | OGC Web Service (WFS 2.0.0) |
 | [Pre-defined SOS](./sos-pre-defined) | OGC Web Service (SOS 2.0) |
 | [Direct SOS](./sos-direct) | OGC Web Service (SOS 2.0) |
-=======
-| [Pre-defined Atom](http://inspire.ec.europa.eu/id/ats/download-service/3.1/atom-pre-defined) | Atom feed with Open Search description |
-| [Pre-defined WFS](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined) | OGC Web Service (WFS 2.0.0) |
-| [Direct WFS](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-direct) | OGC Web Service (WFS 2.0.0) |
-| [INSPIRE Quality of Service](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-qos) | OGC Web Service (WFS 2.0.0) |
-| [Pre-defined SOS](https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0/sos-pre-defined) | OGC Web Service (SOS 2.0.0) |
-| [Direct SOS](https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0/sos-direct) | OGC Web Service (SOS 2.0.0) |
->>>>>>> Stashed changes
 
 ## Rules for HTTP requests
 
