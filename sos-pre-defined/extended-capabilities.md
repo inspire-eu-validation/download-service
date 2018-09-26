@@ -1,9 +1,7 @@
 # Extended capabilities
 
-**Purpose**: Check that the INSPIRE extended metadata is provided using the elements defined in the INSPIRE ExtendedCapabilities
-XML Schema for ISO 19142. The purpose of this test is to verify that the INSPIRE ExtendedCapabilities root element
-is included in the SOS GetCapabilities response and that the contents of the root element are valid according to the
-XML Schema for the INSPIRE SOS ExtendedCapabilities.
+**Purpose**: Check that the INSPIRE extended metadata is provided using the Metadata URL element or it is defined in the INSPIRE ExtendedCapabilities
+XML Schema for ISO 19142.
 
 **Prerequisites**
 
@@ -19,7 +17,7 @@ XML Schema for the INSPIRE SOS ExtendedCapabilities.
 
 **Reference(s)**
 
-* [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0), Requirements 4.6 and 4.15
+* [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0), Requirements 4.6
 
 **Test type**: Automated
 

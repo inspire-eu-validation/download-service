@@ -3,7 +3,6 @@
 **Purpose**: Check that the observations may be served in different CRS. To download the data in a specific supported CRS it must be send as parameter in the GetObservation request. If the CRS is unsupported, an exception will be raised.
 
 **Prerequisites**
-* Requirements 4.4, 4.5 and 4.7
 
 **Test method**
 
@@ -12,7 +11,7 @@
   * Send a GetObservation request for every supported [CRS](#crs)
   * Validate GetObservation response is in the requested CRS
 * Send a GetObservation request for an unsupported CRS
-* Validate the response is the corresponding unsupported CRS exception
+  * Validate the response is the corresponding unsupported CRS exception
 * If any of the validations fails, the test fails.
 
 **Reference(s)**:
