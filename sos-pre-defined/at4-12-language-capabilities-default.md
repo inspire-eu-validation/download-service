@@ -1,23 +1,34 @@
 # Language Capabilities Default
 
-**Purpose**: Check that the capabilities document is in default language when resquested with absent language parameter or unsupported language.
+**Purpose**: Test that the capabilities document is in default language when resquested with absent language parameter or unsupported language.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage)
-* Send a GetCapabilities request without LANGUAGE parameter
-  * Check that Description is the same as the first request
-  * Check that [Title](#title) is the same as the first request
-  * Check that [Abstract](#abstract) is the same as the first request
-  * Check that Offering Names is the same as the first request
-* Send a GetCapabilities with unsupported LANGUAGE parameter
-  * Check that Description is the same as the first request
-  * Check that [Title](#title) is the same as the first request
-  * Check that [Abstract](#abstract) is the same as the first request
-  * Check that Offering Names is the same as the first request
-* If any of the checks or validations fails, the test fails
+* Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage).
+
+* Send a GetCapabilities request without LANGUAGE parameter.
+
+  * Check if Description is the same as the first request.
+
+  * Check if [Title](#title) is the same as the first request.
+
+  * Check if [Abstract](#abstract) is the same as the first request.
+
+  * Check if Offering Names is the same as the first request.
+
+* Send a GetCapabilities with unsupported LANGUAGE parameter.
+
+  * Check if Description is the same as the first request.
+
+  * Check if [Title](#title) is the same as the first request.
+
+  * Check if [Abstract](#abstract) is the same as the first request.
+
+  * Check if Offering Names is the same as the first request.
+
+* If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
 

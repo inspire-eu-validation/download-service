@@ -1,19 +1,24 @@
 # Language Capabilities Parameter
 
-**Purpose**: Check that the service accepts the parameter LANGUAGE.
+**Purpose**: Test that the service accepts the parameter LANGUAGE.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request
-* Validate that it exists exactly one [Response Language](#responseLanguage) node
-* Validate that it exists exactly one [Supported Languages](#supportedLanguages) node
-* Validate that it exists exactly one [Default Language](#defaultLanguage) node
-* Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage)
-* Validate that the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one
-* If any of the checks or validations fails, the test fails
+* Send a GetCapabilities request.
 
+    * Check if it exists exactly one [Response Language](#responseLanguage) node.
+
+    * Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
+
+    * Check if it exists exactly one [Default Language](#defaultLanguage) node.
+
+* Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage).
+
+    * Check if the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one.
+
+* If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
 

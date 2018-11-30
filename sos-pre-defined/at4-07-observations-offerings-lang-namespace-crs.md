@@ -1,16 +1,21 @@
 # Observations Offerings Language Namespace and CRS
 
-**Purpose**: Check that in the ObservationOfferings section of the getCapabilities response exits the Supported Languages, Namespaces and CRS nodes.
+**Purpose**: Test that in the ObservationOfferings section of the getCapabilities response exits the Supported Languages, Namespaces and CRS nodes.
 
 **Prerequisites**
 
 **Test method**
 
 * Send a GetCapabilities request.
+
 * Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists, for every observation:
-  * Validate the child element [Supported Languages](#supportedLanguages) exists.
-  * Validate the child element [Namespaces](#namespaces) exists.
-  * Validate the child element [CRS](#crs) exists.
+
+  * Check if child element [Supported Languages](#supportedLanguages) exists.
+
+  * Check if child element [Namespaces](#namespaces) exists.
+
+  * Check if child element [CRS](#crs) exists.
+
 * If ObservationOffering does not exist or any validation fails then the test fails.
 
 **Reference(s)**:

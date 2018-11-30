@@ -1,19 +1,24 @@
 # Language Capabilities List
 
-**Purpose**: Check that the supported languages, including the default language, appears in the extended capabilities section of the capabilities document.
+**Purpose**: Test that the supported languages, including the default language, appears in the extended capabilities section of the capabilities document.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request
-* Validate that it exists exactly one [Supported Languages](#supportedLanguages) node
-* Validate that it exists exactly one [Default Language](#defaultLanguage) node
-* Validate that it exists zero or more [Supported Language](#supportedLanguage) node
-* For every supported language, send GetCapabilities request with parameter LANGUAGE
-  * Validate that the list of supported languages is invariant for each GetCapabilities-Response regardless of the response language
-* If any of the checks or validations fails, the test fails
+* Send a GetCapabilities request.
 
+* Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
+
+* Check if it exists exactly one [Default Language](#defaultLanguage) node.
+
+* Check if it exists zero or more [Supported Language](#supportedLanguage) node.
+
+* For every supported language, send GetCapabilities request with parameter LANGUAGE.
+
+  * Check if the list of supported languages is invariant for each GetCapabilities-Response regardless of the response language.
+
+* If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
 

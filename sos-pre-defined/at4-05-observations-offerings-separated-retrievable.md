@@ -1,15 +1,19 @@
 # Observations Offerings Separated and Retrievable
 
-**Purpose**: Check that the ObservationOfferings available in the service are retrievable using a GetObservation request.
+**Purpose**: Test that the ObservationOfferings available in the service are retrievable using a GetObservation request.
 
 **Prerequisites**
 
 **Test method**
 
 * Send a GetCapabilities request.
-* Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists
+
+* Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists,
+
   * For every observation send a GetObservation request using the observation's [Identifier](#identifier).
+
     * Validate the GetObservation response.
+
 * If ObservationOffering does not exist or any validation fails then the test fails.
 
 **Reference(s)**:

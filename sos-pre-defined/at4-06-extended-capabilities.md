@@ -1,18 +1,24 @@
 # Extended capabilities
 
-**Purpose**: Check that the INSPIRE extended metadata is provided using the Metadata URL element or it is defined in the INSPIRE ExtendedCapabilities
+**Purpose**: Test that the INSPIRE extended metadata is provided using the Metadata URL element or it is defined in the INSPIRE ExtendedCapabilities
 XML Schema for ISO 19142.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request
-* Check that the [ExtendedCapabilities](#extendedCapabilities) exists. If it does
+* Send a GetCapabilities request.
+
+* Check if the [ExtendedCapabilities](#extendedCapabilities) exists. If it does,
+
   * If [Metadata URL](#metadataURL) child node exists
-    * Validate that [Metadata URL](#metadataURL) is a valid URL
+
+    * Check if [Metadata URL](#metadataURL) is a valid URL.
+  
   * Else
-    * Validate the [ExtendedCapabilities](#extendedCapabilities) element and it's children according to the XML Schema definition for the SOS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
+
+    * Check if [ExtendedCapabilities](#extendedCapabilities) element and it's children according to the XML Schema definition for the SOS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
+
 * If any of the checks or validations fails, the test fails
 
 **Reference(s)**

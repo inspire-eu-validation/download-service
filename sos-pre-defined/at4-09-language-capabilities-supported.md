@@ -1,15 +1,17 @@
 # Language Capabilities Supported
 
-**Purpose**: Check that the service contains a list of supported languages.
+**Purpose**: Test that the service contains a list of supported languages.
 
 **Prerequisites**
 Requirement 4.14
 
 **Test method**
 
-* Send a GetCapabilities request
-* Validate that it exists exactly one [Supported Languages](#supportedLanguages) node
-* If the validation fails, the test fails
+* Send a GetCapabilities request.
+
+* Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
+
+* If the validation fails, the test fails.
 
 **Reference(s)**:
 

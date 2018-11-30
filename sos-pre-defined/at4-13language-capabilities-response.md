@@ -1,19 +1,24 @@
 # Language Capabilities Response
 
-**Purpose**: Check that the Response Language exists and it changes depending on the requested language.
+**Purpose**: Test that the Response Language exists and it changes depending on the requested language.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request without LANGUAGE parameter
-  * Validate that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage)
-* Send a GetCapabilities request with an invalid value in the LANGUAGE parameter
-  * Validate that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage)
-* For every [Supported Language](#supportedLanguage), send GetCapabilities request with parameter LANGUAGE
-  * Validate that the [Response Language](#responseLanguage) is the same as the requested one
-* If any of the checks or validations fails, the test fails
+* Send a GetCapabilities request without LANGUAGE parameter.
 
+  * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+
+* Send a GetCapabilities request with an invalid value in the LANGUAGE parameter.
+
+  * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+
+* For every [Supported Language](#supportedLanguage), send GetCapabilities request with parameter LANGUAGE.
+
+  * Check if the [Response Language](#responseLanguage) is the same as the requested one.
+
+* If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
 

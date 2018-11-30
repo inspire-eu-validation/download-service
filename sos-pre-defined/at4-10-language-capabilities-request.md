@@ -1,6 +1,6 @@
 # Language Capabilities Request
 
-**Purpose**: Check that the capabilities document might be retrieved in different languages.
+**Purpose**: Test that the capabilities document might be retrieved in different languages.
 
 **Prerequisites**
 Requirement 4.11, 4.12 and 4.13
@@ -8,7 +8,6 @@ Requirement 4.11, 4.12 and 4.13
 **Test method**
 
 * This test fails if any of the prerequisites fails.
-
 
 **Reference(s)**:
 
