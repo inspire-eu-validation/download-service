@@ -8,7 +8,7 @@
 
 * Send a GetCapabilities request.
 
-* Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists, for every observation:
+* For each [Observation Offering](#observationOffering) node:
 
   * Check if child element [Supported Languages](#supportedLanguages) exists.
 
@@ -27,14 +27,17 @@
 
 **Notes**
 
+The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
+
+The multiplicity of [Supported Languages](#supportedLanguages), [Namespaces](#namespaces) and [CRS](#crs) is 1 for each of them.
 
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering |
-| Supported Languages <a name="supportedLanguages"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering/swes:extensions/inspire_common:SupportedLanguages |
-| Namespaces <a name="namespaces"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering/swes:extensions/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace |
-| CRS <a name="crs"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering/swes:extensions/inspire_dls:SupportedSupportedCRS |
+| Supported Languages <a name="supportedLanguages"></a> | swes:extensions/inspire_common:SupportedLanguages |
+| Namespaces <a name="namespaces"></a> | swes:extensions/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace |
+| CRS <a name="crs"></a> | swes:extensions/inspire_dls:SupportedSupportedCRS |
