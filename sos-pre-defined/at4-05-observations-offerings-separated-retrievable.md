@@ -8,13 +8,13 @@
 
 * Send a GetCapabilities request.
 
-* Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists,
+* For every [Observation Offering](#observationOffering) node:
 
-  * For every observation send a GetObservation request using the observation's [Identifier](#identifier).
+  * Send a GetObservation request using the observation's [Identifier](#identifier).
 
-    * Validate the GetObservation response.
+    * Check the GetObservation response.
 
-* If ObservationOffering does not exist or any validation fails then the test fails.
+* If any validation fails then the test fails.
 
 **Reference(s)**:
 
@@ -25,6 +25,9 @@
 
 **Notes**
 
+The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
+
+The multiplicity of [Identifier](#identifier) is 1 for each [Observation Offering](#observationOffering).
 
 ## Contextual XPath references
 

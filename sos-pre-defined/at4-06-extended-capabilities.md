@@ -17,7 +17,9 @@ XML Schema for ISO 19142.
   
   * Else
 
-    * Check if [ExtendedCapabilities](#extendedCapabilities) element and it's children according to the XML Schema definition for the SOS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
+    * Check if the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
+
+* Check if all the mandatory elements that do not belong to the ExtendedCapabilities section shown in table 13 of [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0) are provided.
 
 * If any of the checks or validations fails, the test fails
 
@@ -28,6 +30,8 @@ XML Schema for ISO 19142.
 **Test type**: Automated
 
 **Notes**
+
+The multiplicity of [ExtendedCapabilities](#extendedCapabilities) is 1.
 
 ## Contextual XPath references
 

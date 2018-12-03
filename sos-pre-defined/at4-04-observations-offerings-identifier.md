@@ -8,11 +8,11 @@
 
 * Send a GetCapabilities request.
 
-    * Check the existence of [Observation Offering](#observationOffering) node. Its multiplicity is 0 to n. If it exists,
+    * For every [Observation Offering](#observationOffering) node:
 
-        * Validate the child element [Identifier](#identifier) for every observation. Its value SHALL be a URI according to [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476).
+        * Check if child element [Identifier](#identifier) exists for every observation. Its value SHALL be a URI according to [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476).
 
-    * If ObservationOffering does not exist or any validation fails then the test fails.
+    * If any validation fails then the test fails.
 
 **Reference(s)**:
 
@@ -23,6 +23,9 @@
 
 **Notes**
 
+The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
+
+The multiplicity of [Identifier](#identifier) is 1 for each [Observation Offering](#observationOffering).
 
 ## Contextual XPath references
 
