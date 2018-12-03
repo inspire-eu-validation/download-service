@@ -33,6 +33,8 @@ XML Schema for ISO 19142.
 
 The multiplicity of [ExtendedCapabilities](#extendedCapabilities) is 1.
 
+The multiplicity of [Metadata URL](#metadataURL) is 0 or 1.
+
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
