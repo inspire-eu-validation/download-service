@@ -33,7 +33,7 @@ The multiplicity of [Supported Languages](#supportedLanguages) is 1 to n.
 
 The multiplicity of [Namespaces](#namespaces) is 1.
 
-The multiplicity of [CRS](#crs) is 1.
+The multiplicity of [CRS](#crs) is 1 to n.
 
 ## Contextual XPath references
 
