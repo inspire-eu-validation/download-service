@@ -29,6 +29,9 @@
 
 **Notes**
 
+The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
+
+The multiplicity of [CRS](#crs) is 1 to n.
 
 ## Contextual XPath references
 
