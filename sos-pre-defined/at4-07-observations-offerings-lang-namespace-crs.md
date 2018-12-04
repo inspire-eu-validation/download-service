@@ -29,7 +29,11 @@
 
 The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
 
-The multiplicity of [Supported Languages](#supportedLanguages), [Namespaces](#namespaces) and [CRS](#crs) is 1 for each of them.
+The multiplicity of [Supported Languages](#supportedLanguages) is 1 to n.
+
+The multiplicity of [Namespaces](#namespaces) is 1.
+
+The multiplicity of [CRS](#crs) is 1.
 
 ## Contextual XPath references
 
