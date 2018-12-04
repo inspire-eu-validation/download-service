@@ -6,14 +6,6 @@
 
 **Test method**
 
-* Send a GetCapabilities request.
-
-    * Check if exactly one [Response Language](#responseLanguage) node exists.
-
-    * Check if exactly one [Supported Languages](#supportedLanguages) node exists.
-
-    * Check if exactly one [Default Language](#defaultLanguage) node exists.
-
 * Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage).
 
     * Check if the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one.
