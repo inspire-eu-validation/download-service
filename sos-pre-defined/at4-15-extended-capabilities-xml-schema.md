@@ -8,9 +8,7 @@
 
 * Send a GetCapabilities request.
 
-* Check if the [ExtendedCapabilities](#extendedCapabilities) element and it's children according to the XML Schema definition for the SOS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
-
-* If validation fails, the test fails
+    * Check the previous response is schema valid against http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
 
 **Reference(s)**
 
@@ -26,4 +24,3 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 | Abbreviation                                               |  XPath expression |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| ExtendedCapabilities <a name="extendedCapabilities"></a>   | ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities[1] |
