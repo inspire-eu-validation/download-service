@@ -30,6 +30,9 @@
 
 **Notes**
 
+The multiplicity of [Title](#title) is one.
+
+The multiplicity of [Abstract](#abstract) is one.
 
 ## Contextual XPath references
 

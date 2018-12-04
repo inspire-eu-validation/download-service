@@ -26,6 +26,11 @@
 
 **Notes**
 
+The multiplicity of [Supported Languages](#supportedLanguages) is 1.
+
+The multiplicity of [Default Language](#defaultLanguage) is 1.
+
+The multiplicity of [[Supported Language](#supportedLanguage) is 0 to n.
 
 ## Contextual XPath references
 
