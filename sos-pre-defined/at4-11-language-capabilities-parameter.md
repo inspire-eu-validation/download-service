@@ -8,11 +8,11 @@
 
 * Send a GetCapabilities request.
 
-    * Check if it exists exactly one [Response Language](#responseLanguage) node.
+    * Check if exactly one [Response Language](#responseLanguage) node exists.
 
-    * Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
+    * Check if exactly one [Supported Languages](#supportedLanguages) node exists.
 
-    * Check if it exists exactly one [Default Language](#defaultLanguage) node.
+    * Check if exactly one [Default Language](#defaultLanguage) node exists.
 
 * Send a GetCapabilities request with parameter LANGUAGE and value [Default Language](#defaultLanguage).
 

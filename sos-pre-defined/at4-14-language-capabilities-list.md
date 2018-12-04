@@ -8,15 +8,11 @@
 
 * Send a GetCapabilities request.
 
-* Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
+    * Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
 
-* Check if it exists exactly one [Default Language](#defaultLanguage) node.
+    * Check if it exists exactly one [Default Language](#defaultLanguage) node.
 
-* Check if it exists zero or more [Supported Language](#supportedLanguage) node.
-
-* For every supported language, send GetCapabilities request with parameter LANGUAGE.
-
-  * Check if the list of supported languages is invariant for each GetCapabilities-Response regardless of the response language.
+    * Check if it exists zero or more [Supported Language](#supportedLanguage) node.
 
 * If any of the checks or validations fails, the test fails.
 
