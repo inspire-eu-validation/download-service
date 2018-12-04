@@ -10,6 +10,12 @@
 
     * Check if the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one.
 
+    * Check if [Default Language](#defaultLanguage) is a valid ISO 639-2/B alpha 3 code.
+
+    * For each [Supported Language](#supportedLanguage):
+
+        * Check if [Supported Language](#supportedLanguage) is a valid ISO 639-2/B alpha 3 code.
+
 * If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
@@ -31,3 +37,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Response Language <a name="responseLanguage"></a> | /ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:ResponseLanguage/inspire_common:Language |
 | Default Language <a name="defaultLanguage"></a> | /ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language |
+| Supported Language <a name="supportedLanguage"></a> | /ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language |
