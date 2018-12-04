@@ -65,8 +65,8 @@ The Conformance class "Pre-defined SOS: Implement Pre-defined Dataset Download S
 | [at4-06-sos-pre-defined/extended-capabilities](./at4-06-sos-pre-defined/extended-capabilities.md) | Automated | ready for review |
 | [at4-07-observations-offerings-lang-namespace-crs](./at4-07-observations-offerings-lang-namespace-crs.md) | Automated | ready for review |
 | [at4-08-crs-observation](./at4-08-crs-observation.md) | Automated | ready for review |
-| [at4-09-language-capabilities-supported](./at4-09-language-capabilities-supported.md) | Automated | ready for review |
-| [at4-10-language-capabilities-request](./at4-10-language-capabilities-request.md) | Automated | ready for review |
+| [at4-09-language-capabilities-supported](./at4-09-language-capabilities-supported.md) | None | ready for review |
+| [at4-10-language-capabilities-request](./at4-10-language-capabilities-request.md) | None | ready for review |
 | [at4-11-language-capabilities-parameter](./at4-11-language-capabilities-parameter.md) | Automated | ready for review |
 | [at4-12-language-capabilities-default](./at4-12-language-capabilities-default.md) | Automated | ready for review |
 | [at4-13-language-capabilities-response](./at4-13-language-capabilities-response.md) | Automated | ready for review |
