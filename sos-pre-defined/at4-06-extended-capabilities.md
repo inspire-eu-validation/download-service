@@ -39,7 +39,7 @@ The multiplicity of [Metadata URL](#metadataURL) is 0 or 1.
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| ExtendedCapabilities <a name="extendedCapabilities"></a>   | ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities[1] |
-| Metadata URL <a name="metadataURL"></a> | ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities[1]/inspire_common:MetadataUrl/inspire_common:URL |
+| ExtendedCapabilities <a name="extendedCapabilities"></a>   | inspire_dls:ExtendedCapabilities |
+| Metadata URL <a name="metadataURL"></a> | inspire_dls:ExtendedCapabilities/inspire_common:MetadataUrl/inspire_common:URL |

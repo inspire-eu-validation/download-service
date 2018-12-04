@@ -35,7 +35,7 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Title <a name="title"></a> | ows:ServiceIdentification/ows:Title |
 | Abstract <a name="abstract"></a> | ows:ServiceIdentification/ows:Abstract |

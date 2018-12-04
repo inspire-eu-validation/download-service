@@ -31,7 +31,7 @@ The multiplicity of [Identifier](#identifier) is 1 for each [Observation Offerin
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering |
-| Identifier <a name="identifier"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering/swes:identifier |
+| Observation Offering <a name="observationOffering"></a> | *\/sos:Contents/swes:offering/sos:ObservationOffering |
+| Identifier <a name="identifier"></a> | *\/sos:Contents/swes:offering/sos:ObservationOffering/swes:identifier |

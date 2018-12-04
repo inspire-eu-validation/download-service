@@ -34,7 +34,7 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering |
-| CRS <a name="crs"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering/swes:extensions/inspire_dls:SupportedSupportedCRS |
+| Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering |
+| CRS <a name="crs"></a> | swes:extensions/inspire_dls:SupportedSupportedCRS |

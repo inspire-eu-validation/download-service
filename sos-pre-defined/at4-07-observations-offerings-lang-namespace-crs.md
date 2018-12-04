@@ -35,9 +35,9 @@ The multiplicity of [Supported Languages](#supportedLanguages), [Namespaces](#na
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
 
-| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering) |
+| Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/*\/sos:Contents/swes:offering/sos:ObservationOffering |
+| Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering |
 | Supported Languages <a name="supportedLanguages"></a> | swes:extensions/inspire_common:SupportedLanguages |
 | Namespaces <a name="namespaces"></a> | swes:extensions/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace |
 | CRS <a name="crs"></a> | swes:extensions/inspire_dls:SupportedSupportedCRS |
