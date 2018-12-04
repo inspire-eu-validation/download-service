@@ -3,11 +3,8 @@
 **Purpose**: Test that the capabilities document might be retrieved in different languages.
 
 **Prerequisites**
-Requirement 4.11, 4.12 and 4.13
 
 **Test method**
-
-* This test fails if any of the prerequisites fails.
 
 **Reference(s)**:
 
@@ -15,10 +12,11 @@ Requirement 4.11, 4.12 and 4.13
 * [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476)
 * [INS MDTG](http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf)
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
 
+This requirement is satisfied when requirement 4.13 is satisfied.
 
 ## Contextual XPath references
 

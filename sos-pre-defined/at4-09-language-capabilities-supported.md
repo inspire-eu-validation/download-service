@@ -3,15 +3,8 @@
 **Purpose**: Test that the service contains a list of supported languages.
 
 **Prerequisites**
-Requirement 4.14
 
 **Test method**
-
-* Send a GetCapabilities request.
-
-* Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
-
-* If the validation fails, the test fails.
 
 **Reference(s)**:
 
@@ -19,10 +12,11 @@ Requirement 4.14
 * [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476)
 * [INS MDTG](http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf)
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
 
+This requirement is satisfied when requirement 4.14 is satisfied.
 
 ## Contextual XPath references
 
