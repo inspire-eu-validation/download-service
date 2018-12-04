@@ -35,5 +35,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Observation Offering <a name="observationOffering"></a> | *\/sos:Contents/swes:offering/sos:ObservationOffering |
-| Identifier <a name="identifier"></a> | *\/sos:Contents/swes:offering/sos:ObservationOffering/swes:identifier |
+| Observation Offering <a name="observationOffering"></a> | sos:contents/sos:Contents/swes:offering/sos:ObservationOffering |
+| Identifier <a name="identifier"></a> | sos:contents/sos:Contents/swes:offering/sos:ObservationOffering/swes:identifier |
