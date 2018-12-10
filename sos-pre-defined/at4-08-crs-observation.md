@@ -12,11 +12,11 @@
 
   * Send a GetObservation request for every supported [CRS](#crs).
 
-  * Check if GetObservation response is in the requested CRS.
+  * Check if GetObservation response is in the requested [CRS](#crs).
 
-* Send a GetObservation request for an unsupported CRS.
+* Send a GetObservation request for an unsupported [CRS](#crs).
 
-  * Check if the response is the corresponding unsupported CRS exception
+  * Check if the response is the corresponding unsupported [CRS](#crs) exception.
 
 * If any of the validations fails, the test fails.
 
@@ -35,7 +35,7 @@ The multiplicity of [CRS](#crs) is 1 to n.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |

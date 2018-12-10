@@ -16,11 +16,11 @@
 
 **Notes**
 
-This requirement is satisfied when requirement 4.14 is satisfied.
+This requirement is satisfied when requirement [4.14](./at4-14-language-capabilities-list.md) is satisfied.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 | Abbreviation                                               |  XPath expression |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |

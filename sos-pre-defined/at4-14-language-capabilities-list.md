@@ -34,7 +34,7 @@ The multiplicity of [[Supported Language](#supportedLanguage) is 0 to n.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -42,5 +42,3 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 | Supported Languages <a name="supportedLanguages"></a> | /ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages |
 | Default Language <a name="defaultLanguage"></a> | inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language |
 | Supported Language <a name="supportedLanguage"></a> | inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language |
-| Title <a name="title"></a> | /sos:Capabilities/ows:ServiceIdentification/ows:Title |
-| Abstract <a name="abstract"></a> | /sos:Capabilities/ows:ServiceIdentification/ows:Abstract |

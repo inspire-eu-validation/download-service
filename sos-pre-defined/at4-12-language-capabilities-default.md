@@ -10,13 +10,9 @@
 
 * Send a GetCapabilities with unsupported LANGUAGE parameter.
 
-  * Check if Description is the same as the first request.
-
   * Check if [Title](#title) is the same as the first request.
 
   * Check if [Abstract](#abstract) is the same as the first request.
-
-  * Check if Offering Names is the same as the first request.
 
 * If any of the checks or validations fails, the test fails.
 
@@ -34,9 +30,11 @@ The multiplicity of [Title](#title) is one.
 
 The multiplicity of [Abstract](#abstract) is one.
 
+Besides 'Title' and 'Abstract' elements, the requirement mention 'Description' and 'Offering Names' fields. But it is not clear where these fields are located in xml structure.
+
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/sos-tg-1.0/sos-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
