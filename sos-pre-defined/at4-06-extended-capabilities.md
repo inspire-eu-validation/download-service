@@ -37,7 +37,7 @@ The multiplicity of [Metadata URL](#metadataURL) is 0 or 1.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README](./README.md#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |

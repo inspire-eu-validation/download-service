@@ -20,7 +20,7 @@ This requirement is satisfied when requirement [4.13](./at4-13language-capabilit
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README](./README.md#namespaces).
 
 | Abbreviation                                               |  XPath expression |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |

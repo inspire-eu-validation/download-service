@@ -34,7 +34,7 @@ Besides 'Title' and 'Abstract' elements, the requirement mention 'Description' a
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README](./README.md#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |

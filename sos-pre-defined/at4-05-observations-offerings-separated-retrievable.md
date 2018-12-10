@@ -31,7 +31,7 @@ The multiplicity of [Identifier](#identifier) is 1 for each [Observation Offerin
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README](./README.md#namespaces).
 
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
