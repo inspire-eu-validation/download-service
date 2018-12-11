@@ -29,7 +29,7 @@
 
 The multiplicity of [Observation Offering](#observationOffering) is 0 to n.
 
-The multiplicity of [Supported Languages](#supportedLanguages) is 1 to n.
+The multiplicity of [Supported Languages](#supportedLanguages) is 1.
 
 The multiplicity of [Namespaces](#namespaces) is 1.
 
