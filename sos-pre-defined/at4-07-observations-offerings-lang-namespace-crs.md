@@ -10,11 +10,15 @@
 
 * For each [Observation Offering](#observationOffering) node:
 
-  * Check if child element [Supported Languages](#supportedLanguages) exists.
+  * Check if exactly one [Supported Languages](#supportedLanguages) element exists.
 
-  * Check if child element [Namespaces](#namespaces) exists.
+  * Check if exactly one [Namespaces](#namespaces) element exists.
 
-  * Check if child element [CRS](#crs) exists.
+  * Check if exactly one [CRS](#crs) element exists.
+
+    * Check if exactly one [Default CRS](#defaultcrs) element exists.
+
+    * Check if zero or more [Other CRS](#othercrs) elements exists.
 
 * If ObservationOffering does not exist or any validation fails then the test fails.
 
@@ -33,7 +37,11 @@ The multiplicity of [Supported Languages](#supportedLanguages) is 1.
 
 The multiplicity of [Namespaces](#namespaces) is 1.
 
-The multiplicity of [CRS](#crs) is 1 to n.
+The multiplicity of [CRS](#crs) is 1.
+
+The multiplicity of [Default CRS](#defaultcrs) is 1.
+
+The multiplicity of [Other CRS](#othercrs) is 0 to n.
 
 ## Contextual XPath references
 
@@ -44,4 +52,6 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 | Observation Offering <a name="observationOffering"></a> | /sos:Capabilities/sos:contents/sos:Contents/swes:offering/sos:ObservationOffering |
 | Supported Languages <a name="supportedLanguages"></a> | swes:extensions/inspire_common:SupportedLanguages |
 | Namespaces <a name="namespaces"></a> | swes:extensions/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace |
-| CRS <a name="crs"></a> | swes:extensions/inspire_dls:SupportedSupportedCRS |
+| CRS <a name="crs"></a> | swes:extensions/inspire_dls:SupportedCRS |
+| Default CRS <a name="defaultcrs"></a> | swes:extensions/inspire_dls:SupportedCRS/inspire_dls:DefaultCRS |
+| Other CRS <a name="othercrs"></a> | swes:extensions/inspire_dls:SupportedCRS/inspire_dls:OtherCRS |
