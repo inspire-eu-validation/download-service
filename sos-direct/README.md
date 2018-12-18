@@ -42,18 +42,3 @@ Based on requirement numbering in [INS TG SOS](#ref_INS_TG_SOS).
 
 ## Tests
 The Conformance class "Direct SOS: Implement Direct Access Download Service (“Parts A, B & C”) using Sensor Observation Service" is covered by the tests shown in the previous section. Therefore there is not specific tests for this conformance class.
-
-## XML namespace prefixes <a name="namespaces"></a>
-
-The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
-
-Prefix         | Namespace
--------------- | -------------------------------------------------
-fes            | http://www.opengis.net/fes/2.0
-gmd            | http://www.isotc211.org/2005/gmd
-gml            | http://www.opengis.net/gml/3.2
-inspire\_common| http://inspire.ec.europa.eu/schemas/common/1.0
-inspire\_dls   | http://inspire.ec.europa.eu/schemas/inspire_dls/1.0
-ows            | http://www.opengis.net/ows/1.1
-sos            | http://www.opengis.net/sos
-xlink          | http://www.w3.org/1999/xlink
