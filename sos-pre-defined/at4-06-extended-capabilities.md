@@ -42,4 +42,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 | Abbreviation                                               |  XPath expression (relative to /sos:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ExtendedCapabilities <a name="extendedCapabilities"></a>   | inspire_dls:ExtendedCapabilities |
-| Metadata URL <a name="metadataURL"></a> | inspire_dls:ExtendedCapabilities/inspire_common:MetadataUrl/inspire_common:URL |
+| Metadata URL <a name="metadataURL"></a> | inspire_dls:ExtendedCapabilities/inspire_common:MetadataURL/inspire_common:URL |
