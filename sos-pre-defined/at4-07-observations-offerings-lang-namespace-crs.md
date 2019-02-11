@@ -1,6 +1,6 @@
 # Observations Offerings Language Namespace and CRS
 
-**Purpose**: Test that in the ObservationOfferings section of the getCapabilities response exits the Supported Languages, Namespaces and CRS nodes.
+**Purpose**: Test that Supported Languages, Namespaces and CRS nodes are provided in the ObservationOfferings section of getCapabilities response.
 
 **Prerequisites**
 
