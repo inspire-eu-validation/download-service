@@ -27,7 +27,7 @@ none
 | INSPIRE <a name="ref_INSPIRE"></a> | [Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN) |
 | IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN) |
 | INS TG WCS <a name="ref_INS_TG_WCS"></a>   | [Technical Guidance for the implementation of INSPIRE Download Services using Web Coverage Services (WCS)](https://inspire.ec.europa.eu/id/document/tg/download-wcs) |
-| OGC SOS <a name="ref_OGC_WCS"></a> | [OGC WCS 2.0 Interface Standard – Core](https://www.opengeospatial.org/standards/wcs) |
+| OGC WCS <a name="ref_OGC_WCS"></a> | [OGC WCS 2.0 Interface Standard – Core](https://www.opengeospatial.org/standards/wcs) |
 | INS MDTG | [INSPIRE Metadata Implementing Rules](http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf) |
 | Web Service Common | [OGC 06-121r9, OGC Web Service Common Specification, version 2.0](https://www.opengeospatial.org/standards/common) |
 
@@ -48,7 +48,7 @@ Based on requirement numbering in [INS TG WCS](#ref_INS_TG_WCS).
 | 9    | Response language | [at09-response-language](./at09-response-language.md)
 
 ## Tests
-The Conformance class "Pre-defined SOS: Implement Pre-defined Dataset Download Service (“Part A”) using Sensor Observation Service and ISO 19143 Filter Encoding" contains the following tests:
+The Conformance class "TG Conformance WCS-MAN: Mandatory Download Operations" contains the following tests:
 
 | Identifier                                                        | Type   | Status   |
 | ----------------------------------------------------------------- | -------- | -------- |
