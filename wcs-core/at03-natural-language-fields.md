@@ -20,7 +20,7 @@
 
 Example of languaged request:
 
-http://myserver.ac.uk/some/folders/ows?service=WCS&request=GetCapabilities&AcceptVersions=2.0.1, 2.0.0&AcceptLanguages=en&
+http://<i></i>myserver<i></i>.ac.uk/some/folders/ows?service=WCS&request=GetCapabilities&AcceptVersions=2.0.1,2.0.0&AcceptLanguages=en&
 
 ## Contextual XPath references
 

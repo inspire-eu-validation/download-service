@@ -10,11 +10,11 @@
 
     * Check that at least one [Profile](#profile) element contains one of the following values:
 
-        * http://www.opengis.net/spec/WCS_protocol-binding_post-xml/1.0
+        * http://<i></i>www<i></i>.opengis.net/spec/WCS_protocol-binding_post-xml/1.0
 
-        * http://www.opengis.net/spec/WCS_protocol-binding_soap/1.0
+        * http://<i></i>vwww<i></i>.opengis.net/spec/WCS_protocol-binding_soap/1.0
 
-        * http://www.opengis.net/spec/WCS_protocol-binding_get-kvp/1.0.1
+        * http://<i></i>www<i></i>.opengis.net/spec/WCS_protocol-binding_get-kvp/1.0.1
 
 **Reference(s)**
 
