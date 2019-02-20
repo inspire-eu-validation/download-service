@@ -10,6 +10,7 @@ The specification specifies the following conformance classes:
 | [INSPIRE Quality of Service](./wfs-qos) | OGC Web Service (WFS 2.0.0) |
 | [Pre-defined SOS](./sos-pre-defined) | OGC Web Service (SOS 2.0) |
 | [Direct SOS](./sos-direct) | OGC Web Service (SOS 2.0) |
+| [WCS Core](./wcs-core) | OGC Web Service (WCS 2.0) |
 
 ## Rules for HTTP requests
 
