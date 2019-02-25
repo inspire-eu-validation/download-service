@@ -38,7 +38,7 @@ The multiplicity of [Supported Language](#supportedLanguage) is 0 to n.
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-| Abbreviation                                               |  XPath expression (relative to /wcs:Capabilities/ows:ExtendedCapabilities) |
+| Abbreviation                                               |  XPath expression (relative to /wcs:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | --------------------------------------------------- | -------------------------------------------------------------- |
 | Response Language <a name="responseLanguage"></a> | inspire_dls:ExtendedCapabilities/inspire_common:ResponseLanguage/inspire_common:Language |
 | Default Language <a name="defaultLanguage"></a> | inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language |
