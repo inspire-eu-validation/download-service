@@ -10,9 +10,9 @@
 
 * Check that the [ExtendedCapabilities](#extendedCapabilities) section exists. If it does,
 
-  * If [Metadata URL](#metadataURL) child node exists,
+  * If [Metadata Url](#metadataUrl) child node exists,
 
-    * Check that [Metadata URL](#metadataURL) is a valid URL.
+    * Check that [Metadata Url](#metadataUrl) is a valid URL.
   
   * Else
 
@@ -32,7 +32,7 @@
 
 The multiplicity of [ExtendedCapabilities](#extendedCapabilities) is 1.
 
-The multiplicity of [Metadata URL](#metadataURL) is 0 or 1.
+The multiplicity of [Metadata Url](#metadataUrl) is 0 or 1.
 
 ## Contextual XPath references
 
@@ -41,4 +41,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 | Abbreviation                                               |  XPath expression (relative to /wcs:Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities) |
 | --------------------------------------------------- | -------------------------------------------------------------- |
 | ExtendedCapabilities <a name="extendedCapabilities"></a>   | inspire_dls:ExtendedCapabilities |
-| Metadata URL <a name="metadataURL"></a> | inspire_dls:ExtendedCapabilities/inspire_common:MetadataUrl/inspire_common:URL |
+| Metadata Url <a name="metadataUrl"></a> | inspire_dls:ExtendedCapabilities/inspire_common:MetadataUrl/inspire_common:URL |
