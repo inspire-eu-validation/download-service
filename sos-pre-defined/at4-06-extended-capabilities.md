@@ -9,17 +9,17 @@ XML Schema for ISO 19142.
 
 * Send a GetCapabilities request.
 
-* Check if the [ExtendedCapabilities](#extendedCapabilities) exists. If it does,
+* Check that the [ExtendedCapabilities](#extendedCapabilities) exists. If it does,
 
   * If [Metadata Url](#metadataUrl) child node exists,
 
-    * Check if [Metadata Url](#metadataUrl) is a valid URL.
+    * Check that [Metadata Url](#metadataUrl) is a valid URL.
   
   * Else
 
-    * Check if the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema "http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd".
+    * Check that the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema "http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd".
 
-* Check if all the mandatory elements shown in table 13 of [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0) are provided.
+* Check that all the mandatory elements shown in table 13 of [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0) are provided.
 
 * If any of the checks or validations fails, the test fails.
 
