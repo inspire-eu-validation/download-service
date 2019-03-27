@@ -1,6 +1,6 @@
 # CRS Observation
 
-**Purpose**: Test that the observations may be served in different CRS. To download the data in a specific supported CRS it must be send as parameter in the GetObservation request. If the CRS is unsupported, an exception will be raised.
+**Purpose**: To download the data in a specific supported CRS, this must be included as parameter in the GetObservation request. If the CRS is unsupported, an exception will be raised.
 
 **Prerequisites**
 
