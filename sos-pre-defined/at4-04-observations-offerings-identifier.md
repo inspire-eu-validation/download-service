@@ -10,14 +10,15 @@
 
     * For every [Observation Offering](#observationOffering) node:
 
-        * Check if child element [Identifier](#identifier) exists for every observation. Its value SHALL be a URI according to [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476).
+        * Check if child element [Identifier](#identifier) exists for every observation.
+        
+    * Check that the values of the [Identifier](#identifier) elements are not repeated in the Capabilities document.
 
     * If any validation fails then the test fails.
 
 **Reference(s)**:
 
 * [INS TG SOS](http://inspire.ec.europa.eu/id/document/tg/download-sos/1.0), Requirements 4.4
-* [OGC SWE Service Model](http://portal.opengeospatial.org/files/?artifact_id=38476)
 
 **Test type**: Automated
 
