@@ -1,6 +1,6 @@
 # Observations Offerings Identifier
 
-**Purpose**: Test that the Observations Offerings have an Identifier, and it is a URI according to [OGC SWE Service Model].
+**Purpose**: Test that the Observations Offerings have an Identifier, and it is a unique URI according to OGC SWE Service Model.
 
 **Prerequisites**
 
@@ -10,7 +10,7 @@
 
     * For every [Observation Offering](#observationOffering) node:
 
-        * Check if child element [Identifier](#identifier) exists for every observation.
+        * Check that child element [Identifier](#identifier) exists for every observation.
         
     * Check that the values of the [Identifier](#identifier) elements are not repeated in the Capabilities document.
 
