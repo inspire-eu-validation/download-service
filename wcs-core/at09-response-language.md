@@ -1,20 +1,20 @@
 # Response language
 
-**Purpose**: Test that the response language change according with the AcceptLanguage parameter of the GetCapabilities request.
+**Purpose**: Test that the response language changes according with the AcceptLanguages parameter of the GetCapabilities request.
 
 **Prerequisites**
 
 **Test method**
 
-* Send a GetCapabilities request without AcceptLanguage parameter.
+* Send a GetCapabilities request without AcceptLanguages parameter.
 
   * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
 
-* Send a GetCapabilities request with an invalid value in the AcceptLanguage parameter.
+* Send a GetCapabilities request with an invalid value in the AcceptLanguages parameter.
 
   * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
 
-* For every [Supported Language](#supportedLanguage), send GetCapabilities request with parameter AcceptLanguage.
+* For every [Supported Language](#supportedLanguage), send a GetCapabilities request with the parameter AcceptLanguages equal to that language
 
   * Check if the [Response Language](#responseLanguage) is the same as the requested one.
 
