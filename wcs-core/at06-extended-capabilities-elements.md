@@ -18,7 +18,7 @@
 
     * Check that the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema "http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd".
 
-* Check that all the mandatory elements that do not belong to the ExtendedCapabilities section shown in table 16 of [INS TG WCS](https://inspire.ec.europa.eu/id/document/tg/download-wcs) are provided.
+    * Check that all the mandatory elements shown in table 16 of [INS TG WCS](https://inspire.ec.europa.eu/id/document/tg/download-wcs) are provided.
 
 * If any of the checks or validations fails, the test fails.
 
