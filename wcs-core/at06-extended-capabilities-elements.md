@@ -14,7 +14,7 @@
 
     * Check that [Metadata Url](#metadataUrl) is a valid URL.
   
-  * Else if scenario 2,
+  * Else if scenario 2 is selected,
 
     * Check that the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema "http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd".
 
