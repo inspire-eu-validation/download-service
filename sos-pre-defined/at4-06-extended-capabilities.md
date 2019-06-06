@@ -11,11 +11,11 @@ XML Schema for ISO 19142.
 
 * Check that the [ExtendedCapabilities](#extendedCapabilities) exists. If it does,
 
-  * If scenario 1 is selected,
+  * If [Metadata Url](#metadataUrl) child node exists,
 
-    * Check that [Metadata Url](#metadataUrl) node exists and is a valid URL.
+    * Check that [Metadata Url](#metadataUrl) is a valid URL.
   
-  * Else if scenario 2 is selected,
+  * Else
 
     * Check that the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Download Service according with the schema "http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd".
 
