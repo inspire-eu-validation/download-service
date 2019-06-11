@@ -1,4 +1,4 @@
-# Extended capabilities elements
+# Mandatory metadata elements
 
 **Purpose**: Test that the INSPIRE metadata is provided using the Metadata URL element or it is provided in the ExtendedCapabilities section.
 

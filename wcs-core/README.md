@@ -42,7 +42,7 @@ Based on requirement numbering in [INS TG WCS](#ref_INS_TG_WCS).
 | 3    | Natural language fields | [at03-natural-language-fields](./at03-natural-language-fields.md)
 | 4    | XML schema validation | [at04-xml-schema-validation](./at04-xml-schema-validation.md)
 | 5    | Supported languages | [at05-supported-languages](./at05-supported-languages.md)
-| 6    | Extended capabilities elements | [at06-extended-capabilities-elements](./at06-extended-capabilities-elements.md)
+| 6    | Mandatory metadata elements | [at06-mandatory-metadata-elements](./at06-mandatory-metadata-elements.md)
 | 7    | Language request empty and unsupported | [at07-language-request-empty-unsupported](./at07-language-request-empty-unsupported.md)
 | 8    | List of supported languages | [at08-list-supported-languages](./at08-list-supported-languages.md)
 | 9    | Response language | [at09-response-language](./at09-response-language.md)
@@ -56,7 +56,7 @@ The Conformance class "TG Conformance WCS-MAN: Mandatory Download Operations" co
 | [at03-natural-language-fields](./at03-natural-language-fields.md) | Manual | ready for review |
 | [at04-xml-schema-validation](./at04-xml-schema-validation.md) | Automated | ready for review |
 | [at05-supported-languages](./at05-supported-languages.md) | None | ready for review |
-| [at06-extended-capabilities-elements](./at06-extended-capabilities-elements.md) | Automated | ready for review |
+| [at06-mandatory-metadata-elements](./at06-mandatory-metadata-elements.md) | Automated | ready for review |
 | [at07-language-request-empty-unsupported](./at07-language-request-empty-unsupported.md) | Automated | ready for review |
 | [at08-list-supported-languages](./at08-list-supported-languages.md) | Automated | ready for review |
 | [at09-response-language](./at09-response-language.md) | Automated | ready for review |
