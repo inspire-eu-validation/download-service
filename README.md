@@ -1,4 +1,4 @@
-# Abstract Test Suite: INSPIRE Download Services Technical Guidance
+# [DEPRECATED] Abstract Test Suite: INSPIRE Download Services Technical Guidance
 
 The specification specifies the following conformance classes:
 
